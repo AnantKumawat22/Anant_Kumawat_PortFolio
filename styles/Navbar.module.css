@@ -1,0 +1,121 @@
+.navbar {
+    width: 100%;
+    height: 60px;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 900;
+    top: 0;
+    background-color: #5161ce;
+}
+
+.head_name {
+    color: white;
+    line-height: 60px;
+    margin-left: 100px;
+    text-decoration: none;
+    font-size: 27px;
+    font-family: "noticia text", sans-serif;
+    letter-spacing: 1px;
+}
+
+.navbar ul {
+    margin-right: 70px;
+    float: right;
+    list-style: none;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: auto 10px;
+    line-height: 60px;
+}
+
+.navbar ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    color: white;
+    font-family: sans-serif;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.navbar ul li a:hover {
+    background-color: white;
+    color: #5161ce;
+    line-height: 30px;
+}
+
+.checkbtn {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    float: right;
+    margin-right: 40px;
+    line-height: 60px;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+@media(max-width:1030px) {
+    .head_name {
+        margin-left: 50px;
+    }
+
+    .navbar ul {
+        margin-right: 10px;
+    }
+}
+
+@media(max-width:840px) {
+    .navbar ul {
+        width: 100%;
+        height: 220px;
+        position: fixed;
+        top: -100%;
+        margin: 0%;
+        padding-top: 10px;
+        background-color: rgb(255, 255, 255);
+        z-index: 999;
+        transition: top 0.7s ease-in-out;
+        box-shadow: 0 4px 5px 0 rgb(0 0 0 / 20%), 0 0 3px 0 rgb(0 0 0 / 10%);
+    }
+
+    .navbar ul li {
+        display: block;
+        line-height: 40px;
+    }
+
+    .navbar ul li a {
+        display: block;
+        padding: 5px 10px;
+        width: 98%;
+        border-radius: 60px;
+        color: black;
+        transition: none;
+    }
+
+    .navbar ul li a:hover {
+        background-color: #5161ce;
+        color: white;
+    }
+
+    .head_name {
+        margin-left: 20px;
+        font-size: 25px;
+    }
+
+    .checkbtn {
+        display: block;
+        margin-right: 20px;
+    }
+
+    #check:checked~ul {
+        top: 7%;
+    }
+}
