@@ -10,7 +10,7 @@ const withHeaders = (headers) => (nextConfig = {}) => {
 
 module.exports = withHeaders([
   {
-    source: 'assets/images/wavinghand.gif',
+    source: 'wavinghand.gif',
     headers: [
       {
         key: 'Cache-Control',
