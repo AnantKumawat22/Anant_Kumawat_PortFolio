@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(243,244,246,.5);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* // #7C3AED */

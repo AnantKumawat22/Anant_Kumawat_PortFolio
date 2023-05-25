@@ -3,24 +3,27 @@
     height: 60px;
     position: -webkit-sticky;
     position: sticky;
-    z-index: 900;
+    z-index: 999;
     top: 0;
-    background-color: #5161ce;
+    background-color: #7C3AED;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
 }
 
-.head_name {
+.name_logo {
     color: white;
     line-height: 60px;
     margin-left: 100px;
     text-decoration: none;
     font-size: 27px;
-    font-family: "noticia text", sans-serif;
     letter-spacing: 1px;
 }
 
 .navbar ul {
     margin-right: 70px;
     float: right;
+    display: flex;
+    flex-direction: row;
     list-style: none;
 }
 
@@ -33,17 +36,16 @@
 .navbar ul li a {
     padding: 10px 20px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 14px;
     letter-spacing: 1px;
     border-radius: 20px;
     color: white;
-    font-family: sans-serif;
     transition: background-color 0.5s ease-in-out;
 }
 
 .navbar ul li a:hover {
     background-color: white;
-    color: #5161ce;
+    color: #7C3AED;
     line-height: 30px;
 }
 
@@ -57,14 +59,13 @@
     display: none;
 }
 
-#check {
+.check {
     display: none;
 }
 
-
 @media(max-width:1030px) {
-    .head_name {
-        margin-left: 50px;
+    .name_logo {
+        margin-left: 30px;
     }
 
     .navbar ul {
@@ -74,34 +75,39 @@
 
 @media(max-width:840px) {
     .navbar ul {
-        width: 100%;
-        height: 220px;
+        width: 200px;
+        height: 100vh;
         position: fixed;
-        top: -100%;
-        margin: 0%;
-        padding-top: 10px;
-        background-color: rgb(255, 255, 255);
+        left: -100%;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px;
+        background-color: rgba(255, 255, 255, 0.9);
         z-index: 999;
-        transition: top 0.7s ease-in-out;
+        transition: left 0.7s ease-in-out;
         box-shadow: 0 4px 5px 0 rgb(0 0 0 / 20%), 0 0 3px 0 rgb(0 0 0 / 10%);
     }
 
     .navbar ul li {
-        display: block;
-        line-height: 40px;
+        width: 100%;
+        margin: 0px;
+        display: flex;
+        margin-top: 20px;
+        line-height: 30px;
+        justify-content: center;
     }
 
     .navbar ul li a {
         display: block;
-        padding: 5px 10px;
-        width: 98%;
+        padding: 5px 20px;
+        width: 90%;
         border-radius: 60px;
         color: black;
         transition: none;
     }
 
     .navbar ul li a:hover {
-        background-color: #5161ce;
+        background-color: #7C3AED;
         color: white;
     }
 
@@ -115,7 +121,7 @@
         margin-right: 20px;
     }
 
-    #check:checked~ul {
-        top: 7%;
+    .check:checked~ul {
+        left: 0px;
     }
 }

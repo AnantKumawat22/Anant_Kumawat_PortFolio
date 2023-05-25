@@ -1,0 +1,212 @@
+.introMain {
+    width: 100%;
+    background: url('../public/assets/images/introbg.webp') no-repeat center top;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+
+.introDesc {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+    padding-top: 150px;
+    /* border: 1px solid rgb(89, 89, 22); */
+}
+
+.introDesc .greet {
+    font-family: sans-serif;
+    color: #e8b917;
+    letter-spacing: 0.2px;
+    font-size: 30px;
+}
+
+.introDesc .name_span {
+    letter-spacing: 0.5px;
+    text-shadow: rgb(0 0 0 / 15%) 0 4px 5px;
+    margin-left: 10px;
+    font-size: 60px;
+    color: #5161ce;
+}
+
+.introMain .education_smalldesc {
+    font-family: sans-serif;
+    letter-spacing: 0.2px;
+    font-size: 15px;
+    color: rgb(39, 39, 39);
+}
+
+.typewritterDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px 0px;
+    font-size: 25px;
+    /* border: 1px solid red; */
+}
+
+.typewritterDiv>span {
+    font-family: sans-serif;
+    letter-spacing: 0.2px;
+    color: rgb(39, 39, 39);
+}
+
+.typewritterDiv div {
+    margin-left: 10px;
+    font-weight: 700;
+    color: #5161ce;
+}
+
+.introMain .aboutme_desc {
+    font-family: sans-serif;
+    letter-spacing: 0.2px;
+    font-size: 20px;
+    line-height: 33px;
+    color: rgb(39, 39, 39);
+}
+
+.resume_btn {
+    width: 100px;
+    height: 40px;
+    outline: none;
+    border: none;
+    margin-top: 30px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #7C3AED;
+}
+
+.resume_btn:hover {
+    background-color: #652bc9;
+}
+
+.myImage {
+    position: relative;
+}
+
+.myImageBG {
+    position: relative;
+    z-index: 1;
+    top: 22%;
+    right: 22%;
+    width: 100%;
+    height: auto;
+    transform: rotate(-20deg);
+}
+
+.myImageAnant {
+    position: absolute;
+    top: 15%;
+    right: 8%;
+    z-index: 2;
+    width: 500px;
+    height: 500px;
+}
+
+
+
+@media(max-width:1280px) {
+
+    .introDesc .greet {
+        font-size: 20px;
+    }
+
+    .introDesc .name_span {
+        font-size: 35px;
+    }
+
+    .introMain .education_smalldesc {
+        font-size: 14px;
+    }
+
+    .typewritterDiv {
+        font-size: 20px;
+    }
+
+    .introMain .aboutme_desc {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .resume_btn {
+        font-size: 15px;
+    }
+
+    .myImageBG {
+        position: relative;
+        z-index: 1;
+        top: 25%;
+        right: 0%;
+        width: 70%;
+        transform: rotate(-20deg);
+    }
+
+    .myImageAnant {
+        position: absolute;
+        top: 18%;
+        right: 20%;
+        z-index: 2;
+        width: 330px;
+        height: 330px;
+    }
+}
+
+@media(max-width: 995px) {
+    .introMain {
+        padding-bottom: 0px;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .introMain .education_smalldesc {
+        text-align: center;
+    }
+
+    .introMain .aboutme_desc {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .introDesc .name_span {
+        font-size: 35px;
+        margin-left: 5px;
+    }
+
+    .introDesc {
+        width: 100%;
+        padding: 20px 10px;
+        padding-top: 50px;
+        align-items: center;
+    }
+
+    .introDesc .greet {
+        font-size: 20px;
+    }
+
+    .aboutme_img {
+        width: 90%;
+        height: 60%;
+    }
+
+    .myImage{
+        padding-top: 100px;
+    }
+
+    .myImageBG{
+        top: 25%;
+        left: 18%;
+    }
+
+    .myImageAnant{
+        top: 15%;
+        left: 20px;
+    }
+}

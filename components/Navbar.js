@@ -1,36 +1,69 @@
 import Link from "next/link";
-// import resume from '../Assets/Anant-Kumawat_Resume.pdf';
+import styles from "../styles/Navbar.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBars,
+  faEnvelope,
+  faFile,
+  faFolder,
+  faHome,
+  faXmark,
+} from "@fortawesome/free-solid-svg-icons";
+import { useState } from "react";
 
 const Navbar = () => {
+  // Menu Bar Checked State
+  const [isChecked, setIsChecked] = useState(false);
+  
+
+  const handleCheckboxChange = () => {
+    setIsChecked(!isChecked);
+  }
   return (
     <>
-      <nav className="navbar">
-        <input type="checkbox" id="check" />
-        <label htmlFor="check" className="checkbtn">
-          <i class="fas fa-bars menu_icon"></i>
+      <nav className={styles.navbar}>
+        <input type="checkbox" className={styles.check} id="check" />
+        <label htmlFor="check" onClick={handleCheckboxChange} className={styles.checkbtn}>
+        {
+          isChecked ? 
+          <FontAwesomeIcon icon={faXmark} />
+          : 
+          <FontAwesomeIcon icon={faBars} />
+        }
+          
+          
         </label>
-        <Link className="head_name" to="/">
+        <Link className={styles.name_logo} href="/">
           PortFolio
         </Link>
         <ul>
           <li>
-            <Link to="/">
-              <i class="fas fa-home"></i> <span> Home</span>
+            <Link href="/">
+              <FontAwesomeIcon icon={faHome} />
+              <span> Home</span>
             </Link>
           </li>
           <li>
-            <Link to="/projects">
-              <i class="fas fa-lightbulb"></i> <span> Projects</span>
+            <Link href="/projects">
+              <FontAwesomeIcon icon={faFolder} />
+              <span> Projects</span>
             </Link>
           </li>
           <li>
-            {/* <a href={resume}>
-              <i class="fas fa-file"></i> <span> Resume</span>
-            </a> */}
+            <Link
+              href={
+                "https://drive.google.com/file/d/1zKQYL8Xlhuz2N627DJGsNuyF3RAXANud/view?usp=drive_link"
+              }
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={faFile} />
+              <span> Resume</span>
+            </Link>
           </li>
           <li>
-            <Link to="/contactus">
-              <i class="fas fa-envelope"></i> <span>Contact Me</span>
+            <Link href="/contactme">
+              <FontAwesomeIcon icon={faEnvelope} />
+              <span> Contact Me</span>
             </Link>
           </li>
         </ul>
