@@ -1,0 +1,89 @@
+.ExpEduDiv{
+    width: 100%;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.EmptyDiv{
+    width: 50%;
+}
+
+.ExpEduIcon {
+    color: #7C3AED;
+    font-size: 20px;
+    width: 65px;
+    height: 60px;
+    z-index: 1;
+    margin: 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #e3d2ff;
+    border: 10px solid white;
+}
+
+.ExpEduMainCard{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    width: 50%;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.title{
+    font-size: 20px;
+    color: rgb(45, 45, 45);
+}
+
+.titleDesc{
+    font-size: 14px;
+    color: rgb(86, 86, 86);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.expEduDesc{
+    margin-bottom: 10px;
+}
+
+.expEduDesc span{
+    font-size: 14px;
+    color: rgb(120, 120, 120);
+    font-weight: 600;
+}
+
+.expEduDesc svg{
+    font-size: 8px;
+    color: gray;
+    margin-right: 5px;
+    opacity: 0.7;
+}
+
+@media (max-width: 1080px){
+    .title{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 800px){
+    .EmptyDiv{
+        display: none;
+    }
+    .ExpEduMainCard{
+        width: 100%;
+    }
+    .ExpEduIcon{
+        margin: 0px 5px;
+        width: 45px;
+        font-size: 16px;
+        height: 40px;
+        border: 5px solid white;
+    }
+    .ExpEduDiv{
+        flex-direction: row !important;
+        justify-content: space-between;
+    }
+}

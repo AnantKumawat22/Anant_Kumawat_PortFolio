@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import SkillCard from "@/components/SkillCard";
+import SkillCard from "@/components/Skills/SkillCard";
 
 const others = () => {
   const [jsonData, setJsonData] = useState(null);
@@ -17,10 +17,10 @@ const others = () => {
   return (
     <>
       {jsonData &&
-        jsonData.others.map((data) => {
+        jsonData.others.map((data, index) => {
           return (
             <>
-              <SkillCard imgSrc={data.imgSrc} skillName={data.skillName} />
+              <SkillCard key={index} imgSrc={data.imgSrc} skillName={data.skillName} />
             </>
           );
         })}

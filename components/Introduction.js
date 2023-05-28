@@ -60,6 +60,7 @@ const Introduction = () => {
           <Image
             src={img3}
             alt="About me"
+            priority
             className={styles.myImageBG}
             width={363}
             height={453}

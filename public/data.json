@@ -129,5 +129,64 @@
                 "skillName": "Operating Sys."
             }
         ]
+    },
+    "experienceSection": {
+        "experience": [
+            {
+                "companyName": "Nagarro, India",
+                "role": "Summer Internship | Jun-Aug 2022",
+                "roleDesc": [
+                    "Learned the concepts of web development, HTML, CSS, MongoDB, Express.js, ReactJS, NodeJS and MYSQL, API.",
+                    "Worked on projects like, creating clone of twitter and an e-commerce website. Used database, backend and frontend."
+                ]
+            },
+            {
+                "companyName": "DreamHatcher Incubation Center, India",
+                "role": "Web App Development Winter Internship | Jan-Feb 2022",
+                "roleDesc": [
+                    "Created and maintained the profile page, database and dash boards of the users registered on the website, worked on coin system of amazon voucher with team. Used JWT token to verify user and hash passwords for password security.",
+                    "Technologies used in this project are HTML, CSS, Bootstrap, JavaScript, NodeJS and MongoDB, express.js"
+                ]
+            },
+            {
+                "companyName": "Coding Ninjas, India",
+                "role": "Ninja Entrepreneur, Internship | Dec 2021-Oct 2022",
+                "roleDesc": [
+                    "Learn communication, time management and increased reach on social media platforms like, LinkedIn, Instagram, WhatsApp, etc. Representing and sharing the opportunities of the company for students to help them grow."
+                ]
+            },
+            {
+                "companyName": "The Entrepreneurship Network, India",
+                "role": "React Developer Associate, Internship | Aug-Nov 2021",
+                "roleDesc": [
+                    "Learned to work in a team and got experience to work with new people of different technologies.",
+                    "Created projects and task, based on ReactJS Technology. Worked on react hooks, axios, react component, etc."
+                ]
+            },
+            {
+                "companyName": "Numeric Infosystem Pvt. Ltd., India",
+                "role": "C Programming, Training | Jan-Apr 2020",
+                "roleDesc": [
+                    "Learned about the concepts of C programming such as array, pointers, functions, data types, control statement, etc.",
+                    "Getting hands on experience of writing programs, problem solving, various pattern questions and finding errors."
+                ]
+            }
+        ],
+        "education": [
+            {
+                "educationFrom": "Institute of Technology and Management, Gwalior",
+                "branch": "Bachelor of Technology in Computer Science and Engineering, 2019-2023 | CGPA: 8.63",
+                "educationDesc": [
+                    "Introduction to C and C++, Data Structures, Analysis and Design of Algorithms, Operating System (OS), Database Management System (DBMS), Object Oriented Programming (OOPs)."
+                ]
+            },
+            {
+                "educationFrom": "FIITJEE, Gwalior",
+                "branch": "PCM | 2017-2019",
+                "educationDesc": [
+                    "soon"
+                ]
+            }
+        ]
     }
 }

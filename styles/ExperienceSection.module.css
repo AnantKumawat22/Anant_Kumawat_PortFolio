@@ -1,0 +1,40 @@
+.experienceSecDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.containerExpSecDiv {
+    margin: 70px 0px;
+    width: 80%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.ExpEduLine {
+    position: absolute;
+    width: 0%;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    border: 1px solid gray;
+    opacity: 0.3;
+}
+
+@media (max-width: 1080px){
+    .containerExpSecDiv{
+        width: 100%;
+        padding: 0px 10px;
+    }
+}
+
+@media (max-width: 800px){
+    .ExpEduLine{
+        left: 34px;
+    }
+}

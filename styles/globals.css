@@ -9,3 +9,51 @@ body{
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0.2px;
 }
+
+/* Heading */
+.heading {
+    font-size: 50px;
+    color: #2f2f2f;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 600px) {
+    .heading{
+        font-size: 35px;
+    }
+}
+
+.secChangeDivHeading {
+    background-color: white;
+    border-radius: 10px;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 5px;
+    justify-content: space-evenly;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.sectionChangeBtn {
+    width: 150px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    color: white;
+    height: 40px;
+    margin: 0px 5px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    .secChangeDivHeading {
+        width: 90%;
+    }
+
+    .sectionChangeBtn {
+        font-size: 14px;
+    }
+}
