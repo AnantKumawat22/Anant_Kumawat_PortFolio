@@ -5,17 +5,15 @@ import contactme from "../public/assets/images/contactme.png";
 import Heading from "./atoms/Heading";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faComment,
   faComments,
   faEnvelope,
-  faMessage,
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
 
 const ContactMe = () => {
   return (
     <>
-      <div className={styles.contactMeMainDiv}>
+      <div id="contactme" className={styles.contactMeMainDiv}>
         <Heading heading={"Contact Me"} />
         <div className={styles.contactMeDIv}>
           <div className={styles.contactMeImgDiv}>

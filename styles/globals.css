@@ -1,3 +1,20 @@
+html {
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    width: 5px;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: #ffffff;
+}
+
+html::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #b3b3b3;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -8,6 +25,7 @@ body{
     background-color: rgb(248 248 255 / 50%);
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0.2px;
+    overflow-y: scroll;
 }
 
 /* Heading */

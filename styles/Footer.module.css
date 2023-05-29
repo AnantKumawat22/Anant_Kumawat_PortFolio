@@ -1,0 +1,53 @@
+.footerMainDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 30px 0px;
+    background-color: #f7f7f7;
+}
+
+.socialProfile{
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.socialProfile img{
+    width: 40px;
+    height: 40px;
+}
+
+.createdBy span{
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(67, 67, 67);
+}
+
+.creatorName{
+    color: #7C3AED !important;
+    font-size: 16px !important;
+}
+
+.createdBy svg{
+    color: red;
+    transform: scale(0.1, 0.1);
+    animation: bumpAnimation 1s infinite ease-in-out;
+}
+
+@keyframes bumpAnimation {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

@@ -61,7 +61,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href="/contactme">
+            <Link href="#contactme">
               <FontAwesomeIcon icon={faEnvelope} />
               <span> Contact Me</span>
             </Link>

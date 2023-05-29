@@ -25,6 +25,22 @@
     border: 10px solid white;
 }
 
+.ExpEduIcon svg{
+    animation: bumpAnimation 1s infinite ease-in-out;
+}
+
+@keyframes bumpAnimation {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
 .ExpEduMainCard{
     box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
     width: 50%;
