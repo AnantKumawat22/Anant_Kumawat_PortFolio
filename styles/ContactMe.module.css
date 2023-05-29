@@ -1,0 +1,125 @@
+.contactMeMainDiv{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    flex-direction: column;
+}
+
+.contactMeDIv{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contactMeImgDiv{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactMeImg{
+    width: 100%;
+    height: 100%;
+}
+
+.contactMeForm{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.contactMeForm h2{
+    margin-bottom: 40px;
+}
+
+.inpFieldDiv{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 5px 20px;
+    border: 2px solid rgba(185, 185, 185, 0.3);
+}
+
+.txtFieldDiv{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: 2px solid rgba(185, 185, 185, 0.3);
+}
+
+.inpFieldDiv svg, .txtFieldDiv svg{
+    margin-right: 15px;
+    color: #7C3AED;
+    font-size: 16px;
+}
+
+.inpField, .txtField{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(77, 77, 77);
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    height: 40px;
+    letter-spacing: 1px;
+    outline: none;
+    border: none;
+}
+
+.txtField{
+    resize: none;
+    height: 150px;
+}
+
+@media (max-width: 1310px){
+    .contactMeDIv{
+        padding: 0px 10px;
+    }
+    .contactMeForm{
+        width: auto;
+    }
+    .inpField, .txtField{
+        width: 400px;
+    }
+    .contactMeImg{
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 1030px){
+    .contactMeDIv{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contactMeForm, .contactMeImgDiv{
+        width: 100%;
+    }
+    .inpField, .txtField{
+        width: 300px;
+        font-size: 15px;
+    }
+    .inpFieldDiv svg, .txtFieldDiv svg{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 450px){
+    .contactMeImg{
+        width: 100%;
+        height: 100%;
+    }
+}
