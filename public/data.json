@@ -188,5 +188,210 @@
                 ]
             }
         ]
+    },
+    "projects": {
+        "website": [
+            {
+                "img": "/assets/images/projects/img.png",
+                "ProjectName": "PortFolio",
+                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "Code",
+                "link_2": "Link"
+            },
+            {
+                "img": "/assets/images/projects/img.png",
+                "ProjectName": "Linnker",
+                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "Code",
+                "link_2": "Link"
+            },
+            {
+                "img": "/assets/images/projects/img.png",
+                "ProjectName": "Linnker",
+                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "Code",
+                "link_2": "Link"
+            },
+            {
+                "img": "/assets/images/projects/img.png",
+                "ProjectName": "Linnker",
+                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "Code",
+                "link_2": "Link"
+            },
+            {
+                "img": "/assets/images/projects/img.png",
+                "ProjectName": "Linnker",
+                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "Code",
+                "link_2": "Link"
+            },
+            {
+                "img": "/assets/images/projects/img.png",
+                "ProjectName": "Linnker",
+                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "Code",
+                "link_2": "Link"
+            },
+            {
+                "img": "/assets/images/projects/img.png",
+                "ProjectName": "Linnker",
+                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "Code",
+                "link_2": "Link"
+            },
+            {
+                "img": "/assets/images/projects/img.png",
+                "ProjectName": "Linnker",
+                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "Code",
+                "link_2": "Link"
+            },
+            {
+                "img": "/assets/images/projects/img.png",
+                "ProjectName": "Linnker",
+                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "Code",
+                "link_2": "Link"
+            },
+            {
+                "img": "/assets/images/projects/img.png",
+                "ProjectName": "Linnker",
+                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "Code",
+                "link_2": "Link"
+            },
+            {
+                "img": "/assets/images/projects/img.png",
+                "ProjectName": "Linnker",
+                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "Code",
+                "link_2": "Link"
+            },
+            {
+                "img": "/assets/images/projects/img.png",
+                "ProjectName": "Linnker",
+                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "Code",
+                "link_2": "Link"
+            },
+            {
+                "img": "/assets/images/projects/img.png",
+                "ProjectName": "Linnker",
+                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "Code",
+                "link_2": "Link"
+            },
+            {
+                "img": "/assets/images/projects/img.png",
+                "ProjectName": "Linnker",
+                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "Code",
+                "link_2": "Link"
+            },
+            {
+                "img": "/assets/images/projects/img.png",
+                "ProjectName": "Linnker",
+                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "Code",
+                "link_2": "Link"
+            }
+        ],
+        "basicWeb": [
+            {
+                "ProjectName": "BWLinnker",
+                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ]
+            },
+            {
+                "ProjectName": "BWSave Notes",
+                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ]
+            }
+        ],
+        "flutterApp": [
+            {
+                "ProjectName": "FROLinnker",
+                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ]
+            },
+            {
+                "ProjectName": "FROSave Notes",
+                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ]
+            }
+        ]
     }
 }

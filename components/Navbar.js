@@ -7,6 +7,7 @@ import {
   faFile,
   faFolder,
   faHome,
+  faLaptop,
   faXmark,
 } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
@@ -44,9 +45,15 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href="/projects">
+            <Link href="/projectsection">
               <FontAwesomeIcon icon={faFolder} />
               <span> Projects</span>
+            </Link>
+          </li>
+          <li>
+            <Link href="/codingdsa">
+              <FontAwesomeIcon icon={faLaptop} />
+              <span> Coding DSA</span>
             </Link>
           </li>
           <li>

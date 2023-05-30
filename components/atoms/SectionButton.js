@@ -3,16 +3,22 @@ import generalContext from "@/context/generalContext";
 
 const SectionButton = (props) => {
   const context = useContext(generalContext);
-  const { chooseSection,changeChooseSection } = context;
-  const lowerBtnValue = props.btnValue.toLowerCase();
+  const { chooseSection, changeChooseSection } = context;
+  const lowerBtnValue = props.btnValue.toLowerCase().replace(/\s/g, "");
 
-  const isMatched = chooseSection.chooseSkill == lowerBtnValue || chooseSection.chooseExperience == lowerBtnValue;
+  const isMatched =
+    chooseSection.chooseSkill == lowerBtnValue ||
+    chooseSection.chooseExperience == lowerBtnValue ||
+    chooseSection.chooseProject == lowerBtnValue;
 
   return (
     <>
       <button
         onClick={(e) => {
-          changeChooseSection(e.target.innerText.toLowerCase(), props.mainsection);
+          changeChooseSection(
+            e.target.innerText.toLowerCase().replace(/\s/g, ""),
+            props.mainsection
+          );
         }}
         style={{
           backgroundColor: isMatched ? "#7C3AED" : "#fff",

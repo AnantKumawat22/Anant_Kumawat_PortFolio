@@ -16,6 +16,7 @@
     "next": "13.4.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-simple-image-slider": "^2.4.1",
     "react-typewriter-effect": "^1.1.0",
     "typewriter-effect": "^2.19.0"
   }

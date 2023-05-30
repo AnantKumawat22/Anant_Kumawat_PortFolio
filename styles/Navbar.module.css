@@ -6,8 +6,6 @@
     z-index: 999;
     top: 0;
     background-color: #7C3AED;
-    font-weight: 600;
-    font-family: 'Poppins', sans-serif;
 }
 
 .name_logo {
@@ -37,16 +35,19 @@
     padding: 10px 20px;
     text-decoration: none;
     font-size: 14px;
-    letter-spacing: 1px;
     border-radius: 20px;
     color: white;
     transition: background-color 0.5s ease-in-out;
 }
 
+.navbar ul li a span{
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
 .navbar ul li a:hover {
     background-color: white;
     color: #7C3AED;
-    line-height: 30px;
 }
 
 .checkbtn {
@@ -73,7 +74,7 @@
     }
 }
 
-@media(max-width:840px) {
+@media(max-width:920px) {
     .navbar ul {
         width: 200px;
         height: 100vh;

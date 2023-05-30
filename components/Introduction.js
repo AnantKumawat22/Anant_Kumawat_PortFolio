@@ -5,6 +5,7 @@ import wavingHand from "../public/assets/images/wavinghand.gif";
 import Anant from "../public/assets/images/Anant.png";
 import styles from "../styles/Introduction.module.css";
 import Typewriter from "typewriter-effect";
+import Link from "next/link";
 
 const Introduction = () => {
 
@@ -54,7 +55,7 @@ const Introduction = () => {
             {jsonData.aboutMeDesc}
           </p>
 
-          <button className={styles.resume_btn}> Resume</button>
+          <Link href={'#'}  className='common_lnk'> Resume</Link>
         </div>
         <div className={styles.myImage}>
           <Image

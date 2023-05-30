@@ -1,0 +1,30 @@
+.imageSlider{
+    object-fit: contain;
+}
+
+.projectSecDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px 0px 0px;
+}
+
+.containerProSecDiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 50px 0px;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+@media(max-width: 500px) {
+    .containerProSecDiv{
+        margin: 0px;
+        margin-top: 50px;
+    }
+}

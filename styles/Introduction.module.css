@@ -68,7 +68,7 @@
     color: rgb(39, 39, 39);
 }
 
-.resume_btn {
+/* .resume_btn {
     width: 100px;
     height: 40px;
     outline: none;
@@ -83,7 +83,7 @@
 
 .resume_btn:hover {
     background-color: #652bc9;
-}
+} */
 
 .myImage {
     position: relative;
@@ -133,9 +133,9 @@
         line-height: 25px;
     }
 
-    .resume_btn {
+    /* .resume_btn {
         font-size: 15px;
-    }
+    } */
 
     .myImageBG {
         position: relative;

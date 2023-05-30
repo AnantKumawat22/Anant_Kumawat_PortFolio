@@ -9,6 +9,7 @@ import {
   faEnvelope,
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
 
 const ContactMe = () => {
   return (
@@ -52,7 +53,7 @@ const ContactMe = () => {
                 placeholder="Your Message *"
               ></textarea>
             </div>
-            <button className="common_btn"> Send Message</button>
+            <Link href={'#'} className="common_lnk"> Send Message</Link>
           </form>
         </div>
       </div>

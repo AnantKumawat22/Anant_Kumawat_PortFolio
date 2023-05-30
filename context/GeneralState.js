@@ -6,6 +6,7 @@ const GeneralState = (props) => {
   const [chooseSection, setChooseSection] = useState({
     chooseSkill: "frontend",
     chooseExperience: "experience",
+    chooseProject: "website"
   });
   
   const changeChooseSection = (text, sectionName) => {
@@ -13,15 +14,15 @@ const GeneralState = (props) => {
       setChooseSection({...chooseSection, chooseSkill: text});
     } else if (sectionName == "experience") {
       setChooseSection({...chooseSection, chooseExperience: text});
+    } else if(sectionName == "project"){
+      setChooseSection({...chooseSection, chooseProject: text});
     }
   };
 
   return (
     <generalContext.Provider
       value={{
-        // chooseclr,
         chooseSection,
-        setChooseSection,
         changeChooseSection,
       }}
     >

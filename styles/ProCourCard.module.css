@@ -1,0 +1,58 @@
+.ProCourCardMainDiv {
+    display: flex;
+    width: 350px;
+    margin: 50px;
+    flex-direction: column;
+}
+
+.ProCourCardImgDiv {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+
+.ProCourCardImgDiv img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: contain;
+}
+
+.ProCourCardDetail {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.proCourName {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.proCourNameDesc {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: rgb(87, 87, 87);
+}
+
+.proCourDescDiv {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.proCourDesc {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(93, 93, 93);
+}
+
+@media(max-width: 500px) {
+    .ProCourCardMainDiv{
+        margin: 30px 0px;
+    }
+}
