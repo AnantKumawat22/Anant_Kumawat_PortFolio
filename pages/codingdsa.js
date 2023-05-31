@@ -37,11 +37,12 @@ const codingdsa = () => {
           <SectionButton btnValue={"LeetCode"} mainsection={"codingdsa"} />
           <SectionButton btnValue={"GeeksForGeeks"} mainsection={"codingdsa"} />
         </div>
+        <SearchQuery/>
         <div className={styles.containerProSecDiv}>
           {chooseCodingDSA == "leetcode" && <LeetCode />}
           {chooseCodingDSA == "geeksforgeeks" && <GeeksForGeeks />}
         </div>
-        <SearchQuery/>
+        
       </div>
     </>
   );

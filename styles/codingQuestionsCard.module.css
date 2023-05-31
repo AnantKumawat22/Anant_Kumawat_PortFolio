@@ -1,0 +1,38 @@
+.codingQuesCard{
+    width: 700px;
+    padding: 20px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.codingQues{
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quesName{
+    color: rgb(85, 85, 85);
+    font-size: 30px;
+}
+
+.quesLevel{
+    width: fit-content;
+    padding: 3px 10px;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 12px;
+    border-radius: 30px;
+    background-color: #e8b917;
+}
+
+@media (max-width: 750px) {
+    .codingQuesCard{
+        width: 95%;
+    }
+    .quesName{
+        font-size: 18px;
+    }
+}

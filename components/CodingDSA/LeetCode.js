@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import CodingQuestionsCard from "./codingQuestionsCard";
 
 const LeetCode = () => {
   return (
     <>
-      Leetcode
+      <CodingQuestionsCard />
     </>
-  )
-}
+  );
+};
 
-export default LeetCode
+export default LeetCode;
