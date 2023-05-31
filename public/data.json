@@ -433,5 +433,37 @@
             "imgSlider": "/assets/images/projects/imageslider/linnker1.gif",
             "imgSliderLink": "https://linnker.vercel.app/"
         }
+    ],
+    "codingDSASecImageSlider": [
+        {
+            "imgSlider": "/assets/images/codingdsa/imageslider/hackerrank.gif",
+            "imgSliderLink": "https://www.hackerrank.com/anantkumawat22"
+        },
+        {
+            "imgSlider": "/assets/images/codingdsa/imageslider/leetcode.gif",
+            "imgSliderLink": "https://leetcode.com/AnantKumawat22/"
+        },
+        {
+            "imgSlider": "/assets/images/codingdsa/imageslider/gfg.gif",
+            "imgSliderLink": "https://auth.geeksforgeeks.org/user/anantkumawat10110/"
+        },
+        {
+            "imgSlider": "/assets/images/codingdsa/imageslider/interviewbit.gif",
+            "imgSliderLink": "https://www.interviewbit.com/profile/anant-kumawat"
+        },
+        {
+            "imgSlider": "/assets/images/codingdsa/imageslider/codechef.gif",
+            "imgSliderLink": "https://www.codechef.com/users/anantkumawat22"
+        }
+    ],
+    "coursesAndCertificatesSecImageSlider": [
+        {
+            "imgSlider": "/assets/images/projects/imageslider/portfolio1.gif",
+            "imgSliderLink": "https://anant-kumawat.vercel.app/"
+        },
+        {
+            "imgSlider": "/assets/images/projects/imageslider/linnker1.gif",
+            "imgSliderLink": "https://linnker.vercel.app/"
+        }
     ]
 }

@@ -9,7 +9,9 @@ const SectionButton = (props) => {
   const isMatched =
     chooseSection.chooseSkill == lowerBtnValue ||
     chooseSection.chooseExperience == lowerBtnValue ||
-    chooseSection.chooseProject == lowerBtnValue;
+    chooseSection.chooseProject == lowerBtnValue ||
+    chooseSection.chooseCoursesAndCertificates == lowerBtnValue ||
+    chooseSection.chooseCodingDSA == lowerBtnValue; 
 
   return (
     <>

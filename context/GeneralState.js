@@ -6,7 +6,9 @@ const GeneralState = (props) => {
   const [chooseSection, setChooseSection] = useState({
     chooseSkill: "frontend",
     chooseExperience: "experience",
-    chooseProject: "website"
+    chooseProject: "website",
+    chooseCoursesAndCertificates: "courses",
+    chooseCodingDSA: "leetcode"
   });
   
   const changeChooseSection = (text, sectionName) => {
@@ -16,7 +18,11 @@ const GeneralState = (props) => {
       setChooseSection({...chooseSection, chooseExperience: text});
     } else if(sectionName == "project"){
       setChooseSection({...chooseSection, chooseProject: text});
-    }
+    } else if(sectionName == "coursesandcertificates"){
+      setChooseSection({...chooseSection, chooseCoursesAndCertificates: text});
+    } else if(sectionName == "codingdsa"){
+      setChooseSection({...chooseSection, chooseCodingDSA: text});
+    } 
   };
 
   return (

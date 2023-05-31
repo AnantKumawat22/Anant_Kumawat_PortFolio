@@ -10,9 +10,9 @@ const ImageCarousel = (props) => {
       showThumbs={false}
       autoPlay={true}
       infiniteLoop={true}
-      interval={5000}
+      interval={4000}
     >
-      {props.projectSecImageSlider.map((data, index) => {
+      {props.imageCarouselData.map((data, index) => {
         return (
           <Link href={`${data.imgSliderLink}`} target="_blank">
             <div key={index} className={`${styles.imageCarouselSlide}`}>

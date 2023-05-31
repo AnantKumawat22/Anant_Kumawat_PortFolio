@@ -29,7 +29,7 @@ const projectSection = () => {
   return (
     <>
     {
-      jsonData && <ImageCarousel {...jsonData} />
+      jsonData && <ImageCarousel imageCarouselData={jsonData.projectSecImageSlider} />
     }
       
       <div className={styles.projectSecDiv}>
