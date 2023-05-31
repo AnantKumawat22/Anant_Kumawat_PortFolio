@@ -192,18 +192,20 @@
     "projects": {
         "website": [
             {
-                "img": "/assets/images/projects/img.png",
+                "img": "/assets/images/projects/website/portfolio.png",
                 "ProjectName": "PortFolio",
-                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectNameDesc": "ReactJS, NextJS, Html, Css, JS, NodeJS",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "My portfolio contains Introduction, Skills, Experience, Education, Contactme, Web projects, Flutter App, Coding DSA, Courses and Certifications.",
+                    "It is made using technologies like Nextjs, React, Html, Css, Javascript, Npm, JSON, NodeJs."
                 ],
                 "link_1": "Code",
-                "link_2": "Link"
+                "link_2": "Live",
+                "codeLink": "https://github.com/AnantKumawat22/Anant_Kumawat_PortFolio",
+                "liveLink": "https://anant-kumawat.vercel.app/"
             },
             {
-                "img": "/assets/images/projects/img.png",
+                "img": "/assets/images/projects/website/linnker.png",
                 "ProjectName": "Linnker",
                 "ProjectNameDesc": "ReactJS, NodeJS, MERN",
                 "ProjectDesc": [
@@ -211,150 +213,178 @@
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
                 ],
                 "link_1": "Code",
-                "link_2": "Link"
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/Linnker",
+                "liveLink": "https://linnker.vercel.app/"
             },
             {
-                "img": "/assets/images/projects/img.png",
-                "ProjectName": "Linnker",
+                "img": "/assets/images/projects/website/infynotes.png",
+                "ProjectName": "InfyNotes",
                 "ProjectNameDesc": "ReactJS, NodeJS, MERN",
                 "ProjectDesc": [
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
                 ],
                 "link_1": "Code",
-                "link_2": "Link"
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/SaveNotes-FrontEnd",
+                "liveLink": "#"
             },
             {
-                "img": "/assets/images/projects/img.png",
-                "ProjectName": "Linnker",
+                "img": "/assets/images/projects/website/textutils.png",
+                "ProjectName": "Text Utils",
                 "ProjectNameDesc": "ReactJS, NodeJS, MERN",
                 "ProjectDesc": [
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
                 ],
                 "link_1": "Code",
-                "link_2": "Link"
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/Text-Utils",
+                "liveLink": "https://anantkumawat22.github.io/Text-Utils/"
             },
             {
-                "img": "/assets/images/projects/img.png",
-                "ProjectName": "Linnker",
+                "img": "/assets/images/projects/website/paymentgateway.png",
+                "ProjectName": "Payment Gateway Integration",
                 "ProjectNameDesc": "ReactJS, NodeJS, MERN",
                 "ProjectDesc": [
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
                 ],
                 "link_1": "Code",
-                "link_2": "Link"
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/Payment_Gateway_Integration",
+                "liveLink": "https://anantkumawat22.github.io/Payment_Gateway_Integration/index.html"
             },
             {
-                "img": "/assets/images/projects/img.png",
-                "ProjectName": "Linnker",
+                "img": "/assets/images/projects/website/vidyayan.png",
+                "ProjectName": "Vidyayan",
                 "ProjectNameDesc": "ReactJS, NodeJS, MERN",
                 "ProjectDesc": [
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
                 ],
                 "link_1": "Code",
-                "link_2": "Link"
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/Vidyayan",
+                "liveLink": "https://anantkumawat22.github.io/Vidyayan/"
             },
             {
-                "img": "/assets/images/projects/img.png",
-                "ProjectName": "Linnker",
+                "img": "/assets/images/projects/website/emojisearchapp.png",
+                "ProjectName": "Emoji Search App",
                 "ProjectNameDesc": "ReactJS, NodeJS, MERN",
                 "ProjectDesc": [
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
                 ],
                 "link_1": "Code",
-                "link_2": "Link"
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/Emoji-Search-App",
+                "liveLink": "https://anantkumawat22.github.io/Emoji-Search-App/"
             },
             {
-                "img": "/assets/images/projects/img.png",
-                "ProjectName": "Linnker",
+                "img": "/assets/images/projects/website/bmicalculator.png",
+                "ProjectName": "BMI Calculator",
                 "ProjectNameDesc": "ReactJS, NodeJS, MERN",
                 "ProjectDesc": [
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
                 ],
                 "link_1": "Code",
-                "link_2": "Link"
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/BMI_Calculator",
+                "liveLink": "https://anantkumawat22.github.io/BMI_Calculator/"
             },
             {
-                "img": "/assets/images/projects/img.png",
-                "ProjectName": "Linnker",
+                "img": "/assets/images/projects/website/markall.png",
+                "ProjectName": "Markall",
                 "ProjectNameDesc": "ReactJS, NodeJS, MERN",
                 "ProjectDesc": [
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
                 ],
                 "link_1": "Code",
-                "link_2": "Link"
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/Markall",
+                "liveLink": "https://markall.vercel.app/"
             },
             {
-                "img": "/assets/images/projects/img.png",
-                "ProjectName": "Linnker",
+                "img": "/assets/images/projects/website/studentattendance.png",
+                "ProjectName": "Student Attendance",
                 "ProjectNameDesc": "ReactJS, NodeJS, MERN",
                 "ProjectDesc": [
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
                 ],
                 "link_1": "Code",
-                "link_2": "Link"
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/student-attendance-assignment",
+                "liveLink": "https://anantkumawat22.github.io/student-attendance-assignment/"
             },
             {
-                "img": "/assets/images/projects/img.png",
-                "ProjectName": "Linnker",
+                "img": "/assets/images/projects/website/jumbo.png",
+                "ProjectName": "Jumbo",
                 "ProjectNameDesc": "ReactJS, NodeJS, MERN",
                 "ProjectDesc": [
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
                 ],
                 "link_1": "Code",
-                "link_2": "Link"
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/Jumbo",
+                "liveLink": "https://anantkumawat22.github.io/Jumbo/Index.html"
             },
             {
-                "img": "/assets/images/projects/img.png",
-                "ProjectName": "Linnker",
+                "img": "/assets/images/projects/website/guessthenumber.png",
+                "ProjectName": "Guess the Number",
                 "ProjectNameDesc": "ReactJS, NodeJS, MERN",
                 "ProjectDesc": [
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
                 ],
                 "link_1": "Code",
-                "link_2": "Link"
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/Guess_The_Number_Game",
+                "liveLink": "https://anantkumawat22.github.io/Guess_The_Number_Game/Index.html"
             },
             {
-                "img": "/assets/images/projects/img.png",
-                "ProjectName": "Linnker",
+                "img": "/assets/images/projects/website/calculatorreact.png",
+                "ProjectName": "Calculator React",
                 "ProjectNameDesc": "ReactJS, NodeJS, MERN",
                 "ProjectDesc": [
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
                 ],
                 "link_1": "Code",
-                "link_2": "Link"
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/CalculatorApp_React",
+                "liveLink": "https://anantkumawat22.github.io/CalculatorApp_React/"
             },
             {
-                "img": "/assets/images/projects/img.png",
-                "ProjectName": "Linnker",
+                "img": "/assets/images/projects/website/365entertainment.png",
+                "ProjectName": "365 Entertainment",
                 "ProjectNameDesc": "ReactJS, NodeJS, MERN",
                 "ProjectDesc": [
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
                 ],
                 "link_1": "Code",
-                "link_2": "Link"
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/365-Entertainments",
+                "liveLink": "https://anantkumawat22.github.io/365-Entertainments/Index.html"
             },
             {
-                "img": "/assets/images/projects/img.png",
-                "ProjectName": "Linnker",
+                "img": "/assets/images/projects/website/flubwastebank.png",
+                "ProjectName": "Flub Waste Bank",
                 "ProjectNameDesc": "ReactJS, NodeJS, MERN",
                 "ProjectDesc": [
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
                 ],
                 "link_1": "Code",
-                "link_2": "Link"
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/FlubWasteBank",
+                "liveLink": "#"
             }
         ],
         "basicWeb": [
@@ -393,5 +423,15 @@
                 ]
             }
         ]
-    }
+    },
+    "projectSecImageSlider": [
+        {
+            "imgSlider": "/assets/images/projects/imageslider/portfolio2.gif",
+            "imgSliderLink": "https://anant-kumawat.vercel.app/"
+        },
+        {
+            "imgSlider": "/assets/images/projects/imageslider/linnker.gif",
+            "imgSliderLink": "https://linnker.vercel.app/"
+        }
+    ]
 }

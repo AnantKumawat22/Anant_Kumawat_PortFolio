@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import styles from "../styles/ProCourCard.module.css";
 import Image from "next/image";
-import img from "../public/assets/images/projects/img.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCircle,
@@ -29,8 +28,6 @@ const ProCourCard = (props) => {
 
   const wrappedSentence = wrapText(props.proCourDesc[0], 74);
 
-  console.log("props", props);
-
   return (
     <>
       <div className={styles.ProCourCardMainDiv}>
@@ -44,7 +41,7 @@ const ProCourCard = (props) => {
           <div className={styles.proCourDescDiv} onClick={toggleDescription}>
             {!showFullDescription && (
               <p style={{cursor: 'pointer'}} className={styles.proCourDesc}>
-                <FontAwesomeIcon icon={faCircle} style={{ fontSize: "8px" }} />{" "}
+                <FontAwesomeIcon icon={faCircle} style={{ fontSize: "8px", marginRight: '3px' }} />{" "}
                 {wrappedSentence}
               </p>
             )}
@@ -60,7 +57,7 @@ const ProCourCard = (props) => {
                   <p style={{cursor: 'pointer'}} key={index} className={styles.proCourDesc}>
                     <FontAwesomeIcon
                       icon={faCircle}
-                      style={{ fontSize: "8px" }}
+                      style={{ fontSize: "8px", marginRight: '3px' }}
                     />{" "}
                     {data}
                   </p>
@@ -75,14 +72,14 @@ const ProCourCard = (props) => {
           </div>
 
           <div className={styles.ProCourBtn}>
-            <Link href={'#'} className="common_lnk" style={{ marginRight: "10px" }}>
-              <span>{props.link_1}</span>
+            <Link href={props.link_1Href} target="_blank" className="common_lnk" style={{ marginRight: "10px" }}>
+              <span>{`${props.link_1}`}</span>
               <FontAwesomeIcon
                 icon={faLink}
                 style={{ marginLeft: "5px", fontSize: "15px" }}
               />{" "}
             </Link>
-            <Link href={'#'} className="common_lnk">
+            <Link href={`${props.link_2Href}`} target="_blank" className="common_lnk">
               <span>{props.link_2}</span>
               <FontAwesomeIcon
                 icon={faSquareArrowUpRight}

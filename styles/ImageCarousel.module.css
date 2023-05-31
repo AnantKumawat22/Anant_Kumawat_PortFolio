@@ -1,0 +1,9 @@
+.imageCarouselSlide {
+    flex: 0 0 100%;
+    transition: transform 0.5s ease;
+}
+
+.imageCarouselSlide img {
+    width: 100%;
+    height: auto;
+}

@@ -101,3 +101,12 @@ body{
         font-size: 15px;
     }
 }
+  
+
+/* Image Slider */
+
+@media (max-width: 500px){
+    .control-dots{
+        display: none;
+    }
+}

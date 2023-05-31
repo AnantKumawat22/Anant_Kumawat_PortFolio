@@ -27,6 +27,8 @@ const Website = () => {
               img={data.img}
               link_1={data.link_1}
               link_2={data.link_2}
+              link_1Href={data.codeLink}
+              link_2Href={data.liveLink}
             />
           );
         })}

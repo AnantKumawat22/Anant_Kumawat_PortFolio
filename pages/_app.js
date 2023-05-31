@@ -3,6 +3,9 @@ import "@/styles/globals.css";
 import Navbar from "@/components/Navbar";
 import Head from "next/head";
 
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
+
 // import Font Awesome CSS
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
