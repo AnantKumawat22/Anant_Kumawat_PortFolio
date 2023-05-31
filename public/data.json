@@ -426,11 +426,11 @@
     },
     "projectSecImageSlider": [
         {
-            "imgSlider": "/assets/images/projects/imageslider/portfolio2.gif",
+            "imgSlider": "/assets/images/projects/imageslider/portfolio1.gif",
             "imgSliderLink": "https://anant-kumawat.vercel.app/"
         },
         {
-            "imgSlider": "/assets/images/projects/imageslider/linnker.gif",
+            "imgSlider": "/assets/images/projects/imageslider/linnker1.gif",
             "imgSliderLink": "https://linnker.vercel.app/"
         }
     ]
