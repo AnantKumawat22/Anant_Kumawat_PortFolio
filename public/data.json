@@ -228,7 +228,7 @@
                 "liveLink": "https://linnker.vercel.app/"
             },
             {
-                "img": "/assets/images/projects/website/infynotes.png",
+                "img": "/assets/images/projects/website/textutils.png",
                 "ProjectName": "InfyNotes",
                 "ProjectNameDesc": "ReactJS, NodeJS, MERN",
                 "ProjectDesc": [
@@ -612,12 +612,419 @@
     },
     "coursesAndCertificatesSecImageSlider": [
         {
-            "imgSlider": "/assets/images/projects/imageslider/portfolio1.gif",
+            "imgSlider": "/assets/images/coursesandcertifications/imageslider/AwsCloudPractitioner.gif",
             "imgSliderLink": "https://anant-kumawat.vercel.app/"
         },
         {
-            "imgSlider": "/assets/images/projects/imageslider/linnker1.gif",
+            "imgSlider": "/assets/images/coursesandcertifications/imageslider/HackerrankProblemSolving.gif",
+            "imgSliderLink": "https://linnker.vercel.app/"
+        },
+        {
+            "imgSlider": "/assets/images/coursesandcertifications/imageslider/GoogleSolutionCertificate.gif",
+            "imgSliderLink": "https://anant-kumawat.vercel.app/"
+        },
+        {
+            "imgSlider": "/assets/images/coursesandcertifications/imageslider/GdgFlutter.gif",
+            "imgSliderLink": "https://linnker.vercel.app/"
+        },
+        {
+            "imgSlider": "/assets/images/coursesandcertifications/imageslider/MicrosoftIntroductionOfProgrammingInPython.gif",
+            "imgSliderLink": "https://anant-kumawat.vercel.app/"
+        },
+        {
+            "imgSlider": "/assets/images/coursesandcertifications/imageslider/TcsCareerEdge.gif",
+            "imgSliderLink": "https://linnker.vercel.app/"
+        },
+        {
+            "imgSlider": "/assets/images/coursesandcertifications/imageslider/UnstopAgoda.gif",
+            "imgSliderLink": "https://anant-kumawat.vercel.app/"
+        },
+        {
+            "imgSlider": "/assets/images/coursesandcertifications/imageslider/LetsUpgradeDSA.gif",
             "imgSliderLink": "https://linnker.vercel.app/"
         }
-    ]
+    ],
+    "coursesAndCertificates": {
+        "courses": [
+            {
+                "img": "/assets/images/coursesandcertifications/courses/EssentialPrograminMasterDataStructuresandAlgorithms.jpg",
+                "ProjectName": "Essential Programin Master Data Structures and Algorithms",
+                "ProjectNameDesc": "Lets Upgrade",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "View Certificate",
+                "link_2": "Disabled",
+                "codeLink": "https://github.com/AnantKumawat22/RanQuotes",
+                "liveLink": "https://anantkumawat22.github.io/RanQuotes/Index.html"
+            },
+            {
+                "img": "/assets/images/coursesandcertifications/courses/7DaysHandsonWorkshopLetsUtterwithFlutter.jpg",
+                "ProjectName": "7 Days Hands on Workshop Lets Utter with Flutter",
+                "ProjectNameDesc": "GDG",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "View Certificate",
+                "link_2": "Disabled",
+                "codeLink": "https://github.com/AnantKumawat22/RanQuotes",
+                "liveLink": "#"
+            },
+            {
+                "img": "/assets/images/coursesandcertifications/courses/EssentialPrograminAWSCloudComputingZerotoHero.jpg",
+                "ProjectName": "Essential Program in AWS Cloud Computing Zero to Hero",
+                "ProjectNameDesc": "Lets Upgrade",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "View Certificate",
+                "link_2": "Disabled",
+                "codeLink": "https://github.com/AnantKumawat22/RanQuotes",
+                "liveLink": "https://anantkumawat22.github.io/RanQuotes/Index.html"
+            },
+            {
+                "img": "/assets/images/coursesandcertifications/courses/EssentialPrograminFlutterZerotoHero.jpg",
+                "ProjectName": "Essential Program in Flutter Zero to Hero",
+                "ProjectNameDesc": "Lets Upgrade",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "View Certificate",
+                "link_2": "Disabled",
+                "codeLink": "https://github.com/AnantKumawat22/RanQuotes",
+                "liveLink": "#"
+            },
+            {
+                "img": "/assets/images/coursesandcertifications/courses/GettingStartedwithPythonCertificate.jpg",
+                "ProjectName": "Getting Started with Python Certificate",
+                "ProjectNameDesc": "GeeksForGeeks",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "View Certificate",
+                "link_2": "Disabled",
+                "codeLink": "https://github.com/AnantKumawat22/RanQuotes",
+                "liveLink": "https://anantkumawat22.github.io/RanQuotes/Index.html"
+            },
+            {
+                "img": "/assets/images/coursesandcertifications/courses/SQLProjectsforBeginnersCertificate.jpg",
+                "ProjectName": "SQL Projects for Beginners Certificate",
+                "ProjectNameDesc": "Great Learning",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "View Certificate",
+                "link_2": "Disabled",
+                "codeLink": "https://github.com/AnantKumawat22/RanQuotes",
+                "liveLink": "#"
+            },
+            {
+                "img": "/assets/images/coursesandcertifications/courses/HTMLCertificate.jpg",
+                "ProjectName": "HTML Certificates",
+                "ProjectNameDesc": "SoloLearn",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "View Certificate",
+                "link_2": "Disabled",
+                "codeLink": "https://github.com/AnantKumawat22/RanQuotes",
+                "liveLink": "https://anantkumawat22.github.io/RanQuotes/Index.html"
+            },
+            {
+                "img": "/assets/images/coursesandcertifications/courses/HTMLWorkshopCertificate.jpg",
+                "ProjectName": "HTML Workshop Certificate",
+                "ProjectNameDesc": "GeeksForGeeks",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "View Certificate",
+                "link_2": "Disabled",
+                "codeLink": "https://github.com/AnantKumawat22/RanQuotes",
+                "liveLink": "#"
+            },
+            {
+                "img": "/assets/images/coursesandcertifications/courses/IntroductiontoLinux.jpg",
+                "ProjectName": "Introduction to Linux",
+                "ProjectNameDesc": "Great Learning",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "View Certificate",
+                "link_2": "Disabled",
+                "codeLink": "https://github.com/AnantKumawat22/RanQuotes",
+                "liveLink": "https://anantkumawat22.github.io/RanQuotes/Index.html"
+            },
+            {
+                "img": "/assets/images/coursesandcertifications/courses/IntroductiontoPythonCertificate.jpg",
+                "ProjectName": "Introduction to Python Certificate",
+                "ProjectNameDesc": "Coursera",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "View Certificate",
+                "link_2": "Disabled",
+                "codeLink": "https://github.com/AnantKumawat22/RanQuotes",
+                "liveLink": "#"
+            },
+            {
+                "img": "/assets/images/coursesandcertifications/courses/LearnVernCSS.jpg",
+                "ProjectName": "CSS",
+                "ProjectNameDesc": "LearnVern",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "View Certificate",
+                "link_2": "Disabled",
+                "codeLink": "https://github.com/AnantKumawat22/RanQuotes",
+                "liveLink": "https://anantkumawat22.github.io/RanQuotes/Index.html"
+            },
+            {
+                "img": "/assets/images/coursesandcertifications/courses/LearnVernHTML.jpg",
+                "ProjectName": "HTML",
+                "ProjectNameDesc": "LearnVern",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "View Certificate",
+                "link_2": "Disabled",
+                "codeLink": "https://github.com/AnantKumawat22/RanQuotes",
+                "liveLink": "#"
+            },
+            {
+                "img": "/assets/images/coursesandcertifications/courses/ProgateJavaCourse.jpg",
+                "ProjectName": "Java Course",
+                "ProjectNameDesc": "Progate",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "View Certificate",
+                "link_2": "Disabled",
+                "codeLink": "https://github.com/AnantKumawat22/RanQuotes",
+                "liveLink": "https://anantkumawat22.github.io/RanQuotes/Index.html"
+            }
+        ],
+        "certificates": [
+            {
+                "img": "/assets/images/coursesandcertifications/certificates/CareerEdgeKnockDownTheLockdown.jpg",
+                "ProjectName": "Career-Edge Knock Down The Lockdown",
+                "ProjectNameDesc": "TCS-ION",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "View Certificate",
+                "link_2": "Disabled",
+                "codeLink": "https://github.com/AnantKumawat22/RanQuotes",
+                "liveLink": "https://anantkumawat22.github.io/RanQuotes/Index.html"
+            },
+            {
+                "img": "/assets/images/coursesandcertifications/certificates/AwsCertifiedCloudPractitioner.jpg",
+                "ProjectName": "Aws Certified Cloud Practitioner",
+                "ProjectNameDesc": "AWS",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "View Certificate",
+                "link_2": "Disabled",
+                "codeLink": "https://github.com/AnantKumawat22/RanQuotes",
+                "liveLink": "https://anantkumawat22.github.io/RanQuotes/Index.html"
+            },
+            {
+                "img": "/assets/images/coursesandcertifications/certificates/AwsCloudArchitecting.jpg",
+                "ProjectName": "Aws Cloud Architecting",
+                "ProjectNameDesc": "AWS",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "View Certificate",
+                "link_2": "Disabled",
+                "codeLink": "https://github.com/AnantKumawat22/RanQuotes",
+                "liveLink": "https://anantkumawat22.github.io/RanQuotes/Index.html"
+            },
+            {
+                "img": "/assets/images/coursesandcertifications/certificates/AwsCloudFoundations.jpg",
+                "ProjectName": "Aws Cloud Foundations",
+                "ProjectNameDesc": "AWS",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "View Certificate",
+                "link_2": "Disabled",
+                "codeLink": "https://github.com/AnantKumawat22/RanQuotes",
+                "liveLink": "https://anantkumawat22.github.io/RanQuotes/Index.html"
+            },
+            {
+                "img": "/assets/images/coursesandcertifications/certificates/BEC.jpg",
+                "ProjectName": "BEC Certificate",
+                "ProjectNameDesc": "Cambridge Assessment English-BEC",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "View Certificate",
+                "link_2": "Disabled",
+                "codeLink": "https://github.com/AnantKumawat22/RanQuotes",
+                "liveLink": "https://anantkumawat22.github.io/RanQuotes/Index.html"
+            },
+            {
+                "img": "/assets/images/coursesandcertifications/certificates/Codekaze.jpg",
+                "ProjectName": "Codekaze",
+                "ProjectNameDesc": "Coding Ninjas",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "View Certificate",
+                "link_2": "Disabled",
+                "codeLink": "https://github.com/AnantKumawat22/RanQuotes",
+                "liveLink": "https://anantkumawat22.github.io/RanQuotes/Index.html"
+            },
+            {
+                "img": "/assets/images/coursesandcertifications/certificates/DevtownCertificateServerAuthUsingExpress&NodeJS.jpg",
+                "ProjectName": "Devtown Certificate Server Auth Using Express & NodeJS",
+                "ProjectNameDesc": "Devtown",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "View Certificate",
+                "link_2": "Disabled",
+                "codeLink": "https://github.com/AnantKumawat22/RanQuotes",
+                "liveLink": "https://anantkumawat22.github.io/RanQuotes/Index.html"
+            },
+            {
+                "img": "/assets/images/coursesandcertifications/certificates/GDGDevFestIndia2021Certificate.jpg",
+                "ProjectName": "GDG DevFest India 2021 Certificate",
+                "ProjectNameDesc": "GDG",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "View Certificate",
+                "link_2": "Disabled",
+                "codeLink": "https://github.com/AnantKumawat22/RanQuotes",
+                "liveLink": "https://anantkumawat22.github.io/RanQuotes/Index.html"
+            },
+            {
+                "img": "/assets/images/coursesandcertifications/certificates/GDG-GwaliorParticipatingInTechnicalQuizandtheEvent.jpg",
+                "ProjectName": "GDG-Gwalior Participating In Technical Quiz and the Event",
+                "ProjectNameDesc": "GDG",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "View Certificate",
+                "link_2": "Disabled",
+                "codeLink": "https://github.com/AnantKumawat22/RanQuotes",
+                "liveLink": "https://anantkumawat22.github.io/RanQuotes/Index.html"
+            },
+            {
+                "img": "/assets/images/coursesandcertifications/certificates/GDSC-SolutionChallengeParticipationCertificate2022.jpg",
+                "ProjectName": "GDSC-Solution Challenge Participation Certificate 2022",
+                "ProjectNameDesc": "GDSC",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "View Certificate",
+                "link_2": "Disabled",
+                "codeLink": "https://github.com/AnantKumawat22/RanQuotes",
+                "liveLink": "https://anantkumawat22.github.io/RanQuotes/Index.html"
+            },
+            {
+                "img": "/assets/images/coursesandcertifications/certificates/GoogleKickStart2021AnantKumawat.jpg",
+                "ProjectName": "Google Kick Start 2021",
+                "ProjectNameDesc": "Google",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "View Certificate",
+                "link_2": "Disabled",
+                "codeLink": "https://github.com/AnantKumawat22/RanQuotes",
+                "liveLink": "https://anantkumawat22.github.io/RanQuotes/Index.html"
+            },
+            {
+                "img": "/assets/images/coursesandcertifications/certificates/IntroductiontoProgrammingusingPython.jpg",
+                "ProjectName": "Introduction to Programming using Python",
+                "ProjectNameDesc": "Microsoft",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "View Certificate",
+                "link_2": "Disabled",
+                "codeLink": "https://github.com/AnantKumawat22/RanQuotes",
+                "liveLink": "https://anantkumawat22.github.io/RanQuotes/Index.html"
+            },
+            {
+                "img": "/assets/images/coursesandcertifications/certificates/ParticipationCertificateCodegoda2022ProgrammingCompetitionByAgoda.jpg",
+                "ProjectName": "Participation Certificate Codegoda 2022 Programming Competition",
+                "ProjectNameDesc": "Agoda",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "View Certificate",
+                "link_2": "Disabled",
+                "codeLink": "https://github.com/AnantKumawat22/RanQuotes",
+                "liveLink": "https://anantkumawat22.github.io/RanQuotes/Index.html"
+            },
+            {
+                "img": "/assets/images/coursesandcertifications/certificates/ProblemSolving(Basic).jpg",
+                "ProjectName": "Problem Solving (Basic)",
+                "ProjectNameDesc": "HackerRank",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "View Certificate",
+                "link_2": "Disabled",
+                "codeLink": "https://github.com/AnantKumawat22/RanQuotes",
+                "liveLink": "https://anantkumawat22.github.io/RanQuotes/Index.html"
+            },
+            {
+                "img": "/assets/images/coursesandcertifications/certificates/TeamKingOfCoders.jpg",
+                "ProjectName": "Hackathon",
+                "ProjectNameDesc": "HackCBS 3.0",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "View Certificate",
+                "link_2": "Disabled",
+                "codeLink": "https://github.com/AnantKumawat22/RanQuotes",
+                "liveLink": "https://anantkumawat22.github.io/RanQuotes/Index.html"
+            },
+            {
+                "img": "/assets/images/coursesandcertifications/certificates/TruegeekTournament2021Certificate.png",
+                "ProjectName": "True geek Tournament 2021 Certificate",
+                "ProjectNameDesc": "GeeksForGeeks",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "View Certificate",
+                "link_2": "Disabled",
+                "codeLink": "https://github.com/AnantKumawat22/RanQuotes",
+                "liveLink": "https://anantkumawat22.github.io/RanQuotes/Index.html"
+            }
+        ]
+    }
 }

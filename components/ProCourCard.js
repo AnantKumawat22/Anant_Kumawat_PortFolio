@@ -79,7 +79,7 @@ const ProCourCard = (props) => {
                 style={{ marginLeft: "5px", fontSize: "15px" }}
               />{" "}
             </Link>
-            <Link href={`${props.link_2Href}`} target="_blank" className="common_lnk">
+            <Link href={`${props.link_2Href}`} style={{display: props.link_2 == "Disabled" ? 'none' : ''}} target="_blank" className="common_lnk">
               <span>{props.link_2}</span>
               <FontAwesomeIcon
                 icon={faSquareArrowUpRight}
