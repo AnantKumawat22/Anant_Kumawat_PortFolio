@@ -4,19 +4,25 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBars,
   faCertificate,
-  faEnvelope,
   faFile,
   faFolder,
   faHome,
   faLaptop,
   faXmark,
 } from "@fortawesome/free-solid-svg-icons";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import { useRouter } from "next/router";
 
 const Navbar = (props) => {
+
+  // Router
+  const router = useRouter();
+
+  // UseRef
+  const navbarRef = useRef();
+
   // Menu Bar Checked State
   const [isChecked, setIsChecked] = useState(false);
-  
 
   const handleCheckboxChange = () => {
     setIsChecked(!isChecked);
@@ -32,11 +38,32 @@ const Navbar = (props) => {
     };
   }, []);
 
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      console.log("1: ", navbarRef);
+      if (navbarRef.current && !navbarRef.current.contains(event.target)) {
+        setIsChecked(false);
+      }
+    };
+
+    if (window.innerWidth <= 768) {
+      document.addEventListener("mousedown", handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
+  useEffect(() => {
+    setIsChecked(false);
+  }, [router.asPath]);
+
 
   return (
     <>
       <nav className={styles.navbar}>
-        <input type="checkbox" className={styles.check} id="check" />
+        <input type="checkbox" readOnly checked={isChecked} className={styles.check} id="check" />
         <label htmlFor="check" onClick={handleCheckboxChange} className={styles.checkbtn}>
         {
           isChecked ? 
@@ -50,7 +77,7 @@ const Navbar = (props) => {
         <Link className={styles.name_logo} href="/">
           PortFolio
         </Link>
-        <ul>
+        <ul ref={navbarRef}>
           <li>
             <Link href="/">
               <FontAwesomeIcon icon={faHome} />

@@ -31,7 +31,7 @@ const coursesAndCertificates = () => {
     }
       
       <div className={styles.CourandCerSecDiv}>
-        <Heading heading={"Courses and Certificates"} />
+        <h1 className={styles.courAndCerHeading}>Courses and Certificates</h1>
         <div className="secChangeDivHeading">
           <SectionButton btnValue={"Courses"} mainsection={"coursesandcertificates"} />
           <SectionButton btnValue={"Certificates"} mainsection={"coursesandcertificates"} />

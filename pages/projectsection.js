@@ -1,4 +1,4 @@
-import BasicWebProject from "@/components/Projects/BasicWebProject";
+import BasicWeb from "@/components/Projects/BasicWeb";
 import FlutterApp from "@/components/Projects/FlutterApp";
 import Website from "@/components/Projects/Website";
 import generalContext from "@/context/generalContext";
@@ -41,7 +41,7 @@ const projectSection = () => {
         </div>
         <div className={styles.containerProSecDiv}>
           {chooseProject == "website" && <Website />}
-          {chooseProject == "basicweb" && <BasicWebProject />}
+          {chooseProject == "basicweb" && <BasicWeb />}
           {chooseProject == "flutterapp" && <FlutterApp />}
         </div>
       </div>

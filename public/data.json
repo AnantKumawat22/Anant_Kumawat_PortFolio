@@ -189,6 +189,16 @@
             }
         ]
     },
+    "projectSecImageSlider": [
+        {
+            "imgSlider": "/assets/images/projects/imageslider/portfolio1.gif",
+            "imgSliderLink": "https://anant-kumawat.vercel.app/"
+        },
+        {
+            "imgSlider": "/assets/images/projects/imageslider/linnker1.gif",
+            "imgSliderLink": "https://linnker.vercel.app/"
+        }
+    ],
     "projects": {
         "website": [
             {
@@ -196,7 +206,7 @@
                 "ProjectName": "PortFolio",
                 "ProjectNameDesc": "ReactJS, NextJS, Html, Css, JS, NodeJS",
                 "ProjectDesc": [
-                    "My portfolio contains Introduction, Skills, Experience, Education, Contactme, Web projects, Flutter App, Coding DSA, Courses and Certifications.",
+                    "My portfolio contains sections like Introduction, Skills, Experience, Education, Contactme, Web projects, Flutter App, Coding DSA, Courses and Certifications.",
                     "It is made using technologies like Nextjs, React, Html, Css, Javascript, Npm, JSON, NodeJs."
                 ],
                 "link_1": "Code",
@@ -207,10 +217,10 @@
             {
                 "img": "/assets/images/projects/website/linnker.png",
                 "ProjectName": "Linnker",
-                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectNameDesc": "MERN, NextJS, Bootstrap, Html, Css, Api, JS",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "We created a project named `Linnker` which solves the problem of finding the WhatsApp groups. It is a website which is made in NextJS technology. It consists of the features like login, signup, creating your own groups, search for your best-fit group, searching groups. It has an admin panel which is used verify the validity the WhatsApp group link, admin only allow valid WhatsApp group to show to the users. It solves the major problem of users to find there best-suited WhatsApp group.", 
+                    "We have used Technologies like Nextjs, Mongodb, Nodejs, Expressjs, Reactjs, Html, Css, Bootstrap, Api, Javascript."
                 ],
                 "link_1": "Code",
                 "link_2": "Link",
@@ -235,8 +245,8 @@
                 "ProjectName": "Text Utils",
                 "ProjectNameDesc": "ReactJS, NodeJS, MERN",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "It is very useful website to perform some operation on text, strings and characters. It can perform operation like convert to uppercase, convert to lowercase, remove extra space, clear text, copy text. It shows the summary of the entered string also, it tells about number of words and characters in string, how much ideal time it take to read that string. It has a feature of light mode and dark blue mode.",
+                    "It uses technologies like Reactjs, bootstrap, Html, Css, javaScript."
                 ],
                 "link_1": "Code",
                 "link_2": "Link",
@@ -389,51 +399,139 @@
         ],
         "basicWeb": [
             {
-                "ProjectName": "BWLinnker",
+                "img": "/assets/images/projects/basicweb/netflixseriesreact.png",
+                "ProjectName": "Nextflix Series React",
                 "ProjectNameDesc": "ReactJS, NodeJS, MERN",
                 "ProjectDesc": [
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
-                ]
+                ],
+                "link_1": "Code",
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/Netflix_Series_List_React",
+                "liveLink": "https://anantkumawat22.github.io/Netflix_Series_List_React/"
             },
             {
-                "ProjectName": "BWSave Notes",
+                "img": "/assets/images/projects/basicweb/ranquotes.png",
+                "ProjectName": "RanQuotes",
                 "ProjectNameDesc": "ReactJS, NodeJS, MERN",
                 "ProjectDesc": [
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
-                ]
+                ],
+                "link_1": "Code",
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/RanQuotes",
+                "liveLink": "https://anantkumawat22.github.io/RanQuotes/Index.html"
+            },
+            {
+                "img": "/assets/images/projects/basicweb/todolist.png",
+                "ProjectName": "To-Do List",
+                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "Code",
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/ToDo_List",
+                "liveLink": "https://anantkumawat22.github.io/ToDo_List/"
+            },
+            {
+                "img": "/assets/images/projects/basicweb/blogging.png",
+                "ProjectName": "Blogging",
+                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "Code",
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/Blogging",
+                "liveLink": "https://anantkumawat22.github.io/Blogging/Index.html"
+            },
+            {
+                "img": "/assets/images/projects/basicweb/theentrepreneurshipnetwork.png",
+                "ProjectName": "The Entrepreneurship Network",
+                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "Code",
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/The-Entrepreneurship-Network",
+                "liveLink": "https://anantkumawat22.github.io/The-Entrepreneurship-Network/"
+            },
+            {
+                "img": "/assets/images/projects/basicweb/tictactoegame.png",
+                "ProjectName": "Tic-Tac-Toe Game",
+                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "Code",
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/Tic_Tac_Toe_Game-",
+                "liveLink": "https://anantkumawat22.github.io/Tic_Tac_Toe_Game-/Index.html"
+            },
+            {
+                "img": "/assets/images/projects/basicweb/simplecalculator.png",
+                "ProjectName": "Simple Calculator",
+                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "Code",
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/Simple_Calculator-",
+                "liveLink": "https://anantkumawat22.github.io/Simple_Calculator-/Index.html"
+            },
+            {
+                "img": "/assets/images/projects/basicweb/kawaspace.png",
+                "ProjectName": "Kawa Space",
+                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "Code",
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/Kawa-Space",
+                "liveLink": "https://anantkumawat22.github.io/Kawa-Space/"
+            },
+            {
+                "img": "/assets/images/projects/basicweb/miniprojects.png",
+                "ProjectName": "Mini Projects",
+                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "Code",
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/Mini_Projects",
+                "liveLink": "https://anantkumawat22.github.io/Mini_Projects/#/"
+            },
+            {
+                "img": "/assets/images/projects/basicweb/photogallery.png",
+                "ProjectName": "Photo Gallery",
+                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "Code",
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/Photo-Gallery",
+                "liveLink": "https://anantkumawat22.github.io/Photo-Gallery/"
             }
         ],
         "flutterApp": [
-            {
-                "ProjectName": "FROLinnker",
-                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
-                "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
-                ]
-            },
-            {
-                "ProjectName": "FROSave Notes",
-                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
-                "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
-                ]
-            }
         ]
     },
-    "projectSecImageSlider": [
-        {
-            "imgSlider": "/assets/images/projects/imageslider/portfolio1.gif",
-            "imgSliderLink": "https://anant-kumawat.vercel.app/"
-        },
-        {
-            "imgSlider": "/assets/images/projects/imageslider/linnker1.gif",
-            "imgSliderLink": "https://linnker.vercel.app/"
-        }
-    ],
     "codingDSASecImageSlider": [
         {
             "imgSlider": "/assets/images/codingdsa/imageslider/hackerrank.gif",
@@ -456,6 +554,62 @@
             "imgSliderLink": "https://www.codechef.com/users/anantkumawat22"
         }
     ],
+    "codingDSA": {
+        "leetcode": [
+            {
+                "question": "1. Two Sum",
+                "level": "Easy",
+                "solutionLink": "https://leetcode.com/problems/two-sum/solutions/2817437/c-unordered-map-time-o-n-space-o-n-1-two-sum/"
+            },
+            {
+                "question": "13. Roman to Integer",
+                "level": "Easy",
+                "solutionLink": "https://leetcode.com/problems/roman-to-integer/solutions/1856866/c-time-o-n-space-o-1-13-roman-to-integer/"
+            },
+            {
+                "question": "14. Longest Common Prefix",
+                "level": "Easy",
+                "solutionLink": "https://leetcode.com/problems/longest-common-prefix/solutions/1924309/c-14-longest-common-prefix/"
+            },
+            {
+                "question": "20. Valid Parentheses",
+                "level": "Easy",
+                "solutionLink": "https://leetcode.com/problems/valid-parentheses/post-solution/1856882/"
+            },
+            {
+                "question": "21. Merge Two Sorted Lists",
+                "level": "Easy",
+                "solutionLink": "https://leetcode.com/problems/merge-two-sorted-lists/solutions/2350155/c-21-merge-two-sorted-lists/"
+            }
+        ],
+        "geeksforgeeks": [
+            {
+                "question": "Add Binary Strings",
+                "level": "Medium",
+                "solutionLink": "#"
+            },
+            {
+                "question": "Case-specific Sorting of Strings",
+                "level": "Medium",
+                "solutionLink": "#"
+            },
+            {
+                "question": "Count ways to reach the n'th stair",
+                "level": "Medium",
+                "solutionLink": "#"
+            },
+            {
+                "question": "Cpp Friend function",
+                "level": "Medium",
+                "solutionLink": "#"
+            },
+            {
+                "question": "Delete keys in a Linked list ",
+                "level": "Medium",
+                "solutionLink": "#"
+            }
+        ]
+    },
     "coursesAndCertificatesSecImageSlider": [
         {
             "imgSlider": "/assets/images/projects/imageslider/portfolio1.gif",

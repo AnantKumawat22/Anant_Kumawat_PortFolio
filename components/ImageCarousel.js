@@ -14,12 +14,13 @@ const ImageCarousel = (props) => {
     >
       {props.imageCarouselData.map((data, index) => {
         return (
-          <Link href={`${data.imgSliderLink}`} target="_blank">
-            <div key={index} className={`${styles.imageCarouselSlide}`}>
+          <Link key={index} href={`${data.imgSliderLink}`} target="_blank">
+            <div className={`${styles.imageCarouselSlide}`}>
               <Image
                 src={data.imgSlider}
                 width={1584}
                 height={396}
+                priority
                 alt="Slider Images"
               />
             </div>

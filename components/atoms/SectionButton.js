@@ -3,7 +3,7 @@ import generalContext from "@/context/generalContext";
 
 const SectionButton = (props) => {
   const context = useContext(generalContext);
-  const { chooseSection, changeChooseSection } = context;
+  const { chooseSection, changeChooseSection, setIsSearched } = context;
   const lowerBtnValue = props.btnValue.toLowerCase().replace(/\s/g, "");
 
   const isMatched =

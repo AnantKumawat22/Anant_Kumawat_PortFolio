@@ -25,11 +25,18 @@ const GeneralState = (props) => {
     } 
   };
 
+  const [leetCodeData, setLeetCodeData] = useState('');
+  const [geeksForGeeksData, setGeeksForGeeksData] = useState('');
+  const [searchCodingQues, setSearchCodingQues] = useState({
+    searchCodingQuesLeet: '',
+    searchCodingQuesGFG: ''
+  });
+
   return (
     <generalContext.Provider
       value={{
         chooseSection,
-        changeChooseSection,
+        changeChooseSection, leetCodeData, setLeetCodeData, geeksForGeeksData, setGeeksForGeeksData, setSearchCodingQues, searchCodingQues,
       }}
     >
       {props.children}
