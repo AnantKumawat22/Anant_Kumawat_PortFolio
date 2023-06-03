@@ -6,7 +6,7 @@ const Experience = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch("/data.json");
+      const response = await fetch("/experience.json");
       const data = await response.json();
       setJsonData(data.experienceSection.experience);
     };

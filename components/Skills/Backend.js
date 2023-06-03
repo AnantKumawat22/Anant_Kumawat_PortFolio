@@ -6,7 +6,7 @@ const backend = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch("/data.json");
+      const response = await fetch("/skills.json");
       const data = await response.json();
       setJsonData(data.skills);
     };

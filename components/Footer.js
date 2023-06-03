@@ -23,7 +23,7 @@ const Footer = () => {
           <Link href="https://twitter.com/AnantKumawat02" target="_blank">
             <Image src={twitter} alt="Social Media Link" />
           </Link>
-          <Link href="" target="_blank">
+          <Link href="https://www.instagram.com/anantkumawat22/" target="_blank">
             <Image src={instagram} alt="Social Media Link" />
           </Link>
         </div>

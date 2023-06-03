@@ -12,6 +12,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/router";
+import Image from "next/image";
+import AKLogo from '../public/assets/images/AKLogo3.gif'
 
 const Navbar = (props) => {
 
@@ -40,7 +42,6 @@ const Navbar = (props) => {
 
   useEffect(() => {
     const handleClickOutside = (event) => {
-      console.log("1: ", navbarRef);
       if (navbarRef.current && !navbarRef.current.contains(event.target)) {
         setIsChecked(false);
       }
@@ -62,7 +63,7 @@ const Navbar = (props) => {
 
   return (
     <>
-      <nav className={styles.navbar}>
+      <nav ref={navbarRef} className={styles.navbar}>
         <input type="checkbox" readOnly checked={isChecked} className={styles.check} id="check" />
         <label htmlFor="check" onClick={handleCheckboxChange} className={styles.checkbtn}>
         {
@@ -75,9 +76,9 @@ const Navbar = (props) => {
           
         </label>
         <Link className={styles.name_logo} href="/">
-          PortFolio
+          <Image src={AKLogo} alt='Logo' width={60} height={60} />
         </Link>
-        <ul ref={navbarRef}>
+        <ul>
           <li>
             <Link href="/">
               <FontAwesomeIcon icon={faHome} />

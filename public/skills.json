@@ -1,0 +1,122 @@
+{
+    "skills": {
+        "frontend": [
+            {
+                "imgSrc": "/assets/images/skills/frontend/javascript.png",
+                "skillName": "JavaScript"
+            },
+            {
+                "imgSrc": "/assets/images/skills/frontend/reactjs.png",
+                "skillName": "ReactJs"
+            },
+            {
+                "imgSrc": "/assets/images/skills/frontend/nextjs.png",
+                "skillName": "NextJS"
+            },
+            {
+                "imgSrc": "/assets/images/skills/frontend/redux.png",
+                "skillName": "Redux"
+            },
+            {
+                "imgSrc": "/assets/images/skills/frontend/bootstrap.png",
+                "skillName": "Bootstrap"
+            },
+            {
+                "imgSrc": "/assets/images/skills/frontend/html.png",
+                "skillName": "Html"
+            },
+            {
+                "imgSrc": "/assets/images/skills/frontend/css.png",
+                "skillName": "Css"
+            },
+            {
+                "imgSrc": "/assets/images/skills/frontend/jquery.png",
+                "skillName": "Jquery"
+            },
+            {
+                "imgSrc": "/assets/images/skills/frontend/vscode.png",
+                "skillName": "Vs Code"
+            },
+            {
+                "imgSrc": "/assets/images/skills/frontend/vercel.svg",
+                "skillName": "Vercel"
+            }
+        ],
+        "backend": [
+            {
+                "imgSrc": "/assets/images/skills/backend/nodejs.png",
+                "skillName": "NodeJS"
+            },
+            {
+                "imgSrc": "/assets/images/skills/backend/mongodb.png",
+                "skillName": "MongoDB"
+            },
+            {
+                "imgSrc": "/assets/images/skills/backend/aws.png",
+                "skillName": "AWS"
+            },
+            {
+                "imgSrc": "/assets/images/skills/backend/expressjs.png",
+                "skillName": "ExpressJS"
+            },
+            {
+                "imgSrc": "/assets/images/skills/backend/sql.png",
+                "skillName": "SQL"
+            },
+            {
+                "imgSrc": "/assets/images/skills/backend/dbms.png",
+                "skillName": "DBMS"
+            },
+            {
+                "imgSrc": "/assets/images/skills/backend/mysql.png",
+                "skillName": "My SQL"
+            }
+        ],
+        "others": [
+            {
+                "imgSrc": "/assets/images/skills/others/c.png",
+                "skillName": "C Lang."
+            },
+            {
+                "imgSrc": "/assets/images/skills/others/cpp.png",
+                "skillName": "C++"
+            },
+            {
+                "imgSrc": "/assets/images/skills/others/dsa.jpg",
+                "skillName": "DSA"
+            },
+            {
+                "imgSrc": "/assets/images/skills/others/googling.png",
+                "skillName": "Googling"
+            },
+            {
+                "imgSrc": "/assets/images/skills/others/flutter.png",
+                "skillName": "Flutter"
+            },
+            {
+                "imgSrc": "/assets/images/skills/others/git.png",
+                "skillName": "Git"
+            },
+            {
+                "imgSrc": "/assets/images/skills/others/github.png",
+                "skillName": "GitHub"
+            },
+            {
+                "imgSrc": "/assets/images/skills/others/java.png",
+                "skillName": "Java"
+            },
+            {
+                "imgSrc": "/assets/images/skills/others/python.png",
+                "skillName": "Python"
+            },
+            {
+                "imgSrc": "/assets/images/skills/others/oops.png",
+                "skillName": "OPPs"
+            },
+            {
+                "imgSrc": "/assets/images/skills/others/os.png",
+                "skillName": "Operating Sys."
+            }
+        ]
+    }
+}

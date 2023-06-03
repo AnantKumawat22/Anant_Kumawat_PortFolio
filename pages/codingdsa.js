@@ -17,7 +17,7 @@ const codingdsa = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch("/data.json");
+      const response = await fetch("/codingdsa.json");
       const data = await response.json();
       setJsonData(data);
     };

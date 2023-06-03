@@ -21,6 +21,7 @@ const ContactMe = () => {
             <Image
               src={contactme}
               alt="Contact Me"
+              priority
               className={styles.contactMeImg}
             />
           </div>
