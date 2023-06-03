@@ -37,11 +37,11 @@
         "courses": [
             {
                 "img": "/assets/images/coursesandcertifications/courses/EssentialPrograminMasterDataStructuresandAlgorithms.jpg",
-                "ProjectName": "Essential Programin Master Data Structures and Algorithms",
+                "ProjectName": "Essential Program in Master Data Structures and Algorithms",
                 "ProjectNameDesc": "Lets Upgrade",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "Learn about Data Structures and Algorithms concept in C++.",
+                    "Concept like Arrays, String, Linked List, Tree, Graph, Hashmap, etc."
                 ],
                 "link_1": "View Certificate",
                 "link_2": "Disabled",
@@ -53,8 +53,8 @@
                 "ProjectName": "7 Days Hands on Workshop Lets Utter with Flutter",
                 "ProjectNameDesc": "GDG",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "It is a 7 days hands-on workshop on flutter which is organised by GDG.",
+                    "It includes the basic concept of flutter."
                 ],
                 "link_1": "View Certificate",
                 "link_2": "Disabled",

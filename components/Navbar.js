@@ -13,7 +13,7 @@ import {
 import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/router";
 import Image from "next/image";
-import AKLogo from '../public/assets/images/AKLogo3.gif'
+import AKLogo from '../public/assets/images/AKLogo.gif'
 
 const Navbar = (props) => {
 
