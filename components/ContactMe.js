@@ -12,7 +12,6 @@ import {
 import generalContext from "@/context/generalContext";
 
 const ContactMe = () => {
-
   const loader = useRef();
   const refSubmit = useRef();
   const context = useContext(generalContext);
@@ -21,38 +20,47 @@ const ContactMe = () => {
   const [contactmedetails, setContactmeDetails] = useState({
     name: "",
     email: "",
-    message: ""
-  })
+    message: "",
+  });
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    if(loader.current) loader.current.style.display = "inline-block";
-    if(refSubmit.current) refSubmit.current.style.display = "none";
-    
+    if (loader.current) loader.current.style.display = "inline-block";
+    if (refSubmit.current) refSubmit.current.style.display = "none";
+
     const { name, email, message } = contactmedetails;
-    
-    const response = await fetch('/api/contactme', {
+
+    const response = await fetch("/api/contactme", {
       method: "POST",
       headers: {
-        "Content-Type": 'application/json'
+        "Content-Type": "application/json",
       },
-      body: JSON.stringify({ name, email, message })
+      body: JSON.stringify({ name, email, message }),
     });
     const data = await response.json();
 
-    if(data.issuccess){
+    if (data.issuccess) {
       showAlert(data.msg, "success");
-    } else{
+    } else {
       showAlert(data.msg, "error");
     }
-    if(loader.current) loader.current.style.display = "none";
-    if(refSubmit.current) refSubmit.current.style.display = "";
-  }
+    if (loader.current) loader.current.style.display = "none";
+    if (refSubmit.current) refSubmit.current.style.display = "";
+
+    setContactmeDetails({
+      name: "",
+      email: "",
+      message: "",
+    });
+  };
 
   const handleChange = (e) => {
-    setContactmeDetails({...contactmedetails, [e.target.name]: e.target.value});
-  }
+    setContactmeDetails({
+      ...contactmedetails,
+      [e.target.name]: e.target.value,
+    });
+  };
 
   return (
     <>
@@ -69,11 +77,6 @@ const ContactMe = () => {
           </div>
           <form className={styles.contactMeForm} onSubmit={handleSubmit}>
             <h2>Get in Touch</h2>
-
-
-
-
-
 
             <div className={styles.inpFieldDiv}>
               <FontAwesomeIcon icon={faUser} />
@@ -108,20 +111,9 @@ const ContactMe = () => {
               ></textarea>
             </div>
 
-
-
-
-
-
-
-
-
-
-
-
-            <button value={'submit'} className={styles.contactmeSubmitBtn}> 
-            <p id="spinner" className={styles.spinner} ref={loader}></p> 
-            <span ref={refSubmit}>Send Message</span>
+            <button value={"submit"} className={styles.contactmeSubmitBtn}>
+              <p id="spinner" className={styles.spinner} ref={loader}></p>
+              <span ref={refSubmit}>Send Message</span>
             </button>
           </form>
         </div>
