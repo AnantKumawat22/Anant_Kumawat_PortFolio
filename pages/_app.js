@@ -3,8 +3,10 @@ import "@/styles/globals.css";
 import Navbar from "@/components/Navbar";
 import Head from "next/head";
 
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+// React Toast
+import "react-toastify/dist/ReactToastify.css";
 
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 // import Font Awesome CSS
 import "@fortawesome/fontawesome-svg-core/styles.css";
@@ -17,7 +19,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 config.autoAddCss = false;
 
 export default function App({ Component, pageProps }) {
-
   // Bottom to top Button State.
   const [bottomToTop, setBottomToTop] = useState(false);
   const isBrowser = () => typeof window !== "undefined";
@@ -27,29 +28,28 @@ export default function App({ Component, pageProps }) {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
-
   return (
     <>
       <GeneralState>
         <Head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
-          rel="stylesheet"
-        />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+            rel="stylesheet"
+          />
         </Head>
         <Navbar setBottomToTop={setBottomToTop} />
         <Component {...pageProps} />
         <Footer />
         <button
-            style={{
-              visibility: bottomToTop ? "visible" : "hidden",
-              opacity: bottomToTop ? "1" : "0",
-            }}
-            className="back-to-top"
-            onClick={scrollToTop}
-          >
-            <FontAwesomeIcon icon={faArrowUp}></FontAwesomeIcon>
-          </button>
+          style={{
+            visibility: bottomToTop ? "visible" : "hidden",
+            opacity: bottomToTop ? "1" : "0",
+          }}
+          className="back-to-top"
+          onClick={scrollToTop}
+        >
+          <FontAwesomeIcon icon={faArrowUp}></FontAwesomeIcon>
+        </button>
       </GeneralState>
     </>
   );
