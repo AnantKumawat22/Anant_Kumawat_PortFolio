@@ -47,6 +47,56 @@
                 "question": "21. Merge Two Sorted Lists",
                 "level": "Easy",
                 "solutionLink": "https://leetcode.com/problems/merge-two-sorted-lists/solutions/2350155/c-21-merge-two-sorted-lists/"
+            },
+            {
+                "question": "26. Remove Duplicates from Sorted Array",
+                "level": "Easy",
+                "solutionLink": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/solutions/1805652/c-time-o-n-space-o-1-26-remove-duplicates-from-sorted-array/"
+            },
+            {
+                "question": "27. Remove Element",
+                "level": "Easy",
+                "solutionLink": "https://leetcode.com/problems/remove-element/solutions/1935068/c-time-o-n-space-o-1-27-remove-element/"
+            },
+            {
+                "question": "35. Search Insert Position",
+                "level": "Easy",
+                "solutionLink": "https://leetcode.com/problems/search-insert-position/solutions/1805643/c-time-o-logn-space-o-1-35-search-insert-position/"
+            },
+            {
+                "question": "58. Length of Last Word",
+                "level": "Easy",
+                "solutionLink": "https://leetcode.com/problems/length-of-last-word/solutions/1803704/c-time-o-n-space-o-1-58-length-of-last-word/?orderBy=most_votes"
+            },
+            {
+                "question": "66. Plus One",
+                "level": "Easy",
+                "solutionLink": "https://leetcode.com/problems/plus-one/solutions/1795414/c-66-plus-one/"
+            },
+            {
+                "question": "67. Add Binary",
+                "level": "Easy",
+                "solutionLink": "https://leetcode.com/problems/add-binary/solutions/1799363/c-67-add-binary/?orderBy=most_votes&languageTags=cpp"
+            },
+            {
+                "question": "83. Remove Duplicates from Sorted List",
+                "level": "Easy",
+                "solutionLink": "https://leetcode.com/problems/remove-duplicates-from-sorted-list/solutions/1805781/c-time-o-n-space-o-1-83-remove-duplicates-from-sorted-list/"
+            },
+            {
+                "question": "88. Merge Sorted Array",
+                "level": "Easy",
+                "solutionLink": "https://leetcode.com/problems/merge-sorted-array/solutions/2288820/c-time-o-m-n-space-o-1-88-merge-sorted-array/"
+            },
+            {
+                "question": "118. Pascal's Triangle",
+                "level": "Easy",
+                "solutionLink": "https://leetcode.com/problems/pascals-triangle/solutions/1800130/c-time-o-n-2-space-o-1-118-pascal-s-triangle/"
+            },
+            {
+                "question": "136. Single Number",
+                "level": "Easy",
+                "solutionLink": "https://leetcode.com/problems/single-number/solutions/2817413/c-bit-manipulation-xor-time-o-n-space-o-1-136-single-number/"
             }
         ],
         "geeksforgeeks": [
