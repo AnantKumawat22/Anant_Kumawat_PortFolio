@@ -40,7 +40,7 @@
             {
                 "img": "/assets/images/projects/website/textutils.png",
                 "ProjectName": "InfyNotes",
-                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectNameDesc": "ReactJS, NodeJS, Express.js, MongoDB",
                 "ProjectDesc": [
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."

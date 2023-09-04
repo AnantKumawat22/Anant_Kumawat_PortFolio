@@ -207,6 +207,19 @@
         ],
         "certificates": [
             {
+                "img": "/assets/images/coursesandcertifications/certificates/ServiceNowCSA.png",
+                "ProjectName": "ServiceNow - Certified System Administrator",
+                "ProjectNameDesc": "ServiceNow",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "View Certificate",
+                "link_2": "Disabled",
+                "codeLink": "",
+                "liveLink": "#"
+            },
+            {
                 "img": "/assets/images/coursesandcertifications/certificates/CareerEdgeKnockDownTheLockdown.jpg",
                 "ProjectName": "Career-Edge Knock Down The Lockdown",
                 "ProjectNameDesc": "TCS-ION",
