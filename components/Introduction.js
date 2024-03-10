@@ -59,7 +59,7 @@ const Introduction = () => {
 
             <Link
               href={
-                "https://drive.google.com/file/d/1zKQYL8Xlhuz2N627DJGsNuyF3RAXANud/view?usp=drive_link"
+                "https://drive.google.com/file/d/1fa5qPObuaMIi3LdodReysdhO6dVFscdr/view?usp=sharing"
               }
               target="_blank"
               className="common_lnk"

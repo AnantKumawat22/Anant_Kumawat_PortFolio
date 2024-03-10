@@ -2,6 +2,21 @@
     "experienceSection": {
         "experience": [
             {
+                "companyName": "Genpact",
+                "role": "Senior Associate | Sep 2023-Present",
+                "roleDesc": [
+                    "Worked on concepts like ITSM, ITOM, CMDB, Service Mapping, Scripting, Flow Designer, Workflows, etc. ServiceNow CSA Certified and gaining additional knowledge on other concepts through ServiceNow Docs."
+                ]
+            },
+            {
+                "companyName": "Revature",
+                "role": "Software Engineer Trainee | Jun-Sep 2023",
+                "roleDesc": [
+                    "Learn about HTML, CSS, JavaScript, AngularJS and ServiceNow.",
+                    "Worked on projects and implemented concepts like ITSM, ITOM, CMDB, Service Mapping, Scripting, Flow Designer, Workflows, etc. ServiceNow CSA Certified and gaining additional knowledge on other concepts through ServiceNow Docs."
+                ]
+            },
+            {
                 "companyName": "Nagarro, India",
                 "role": "Summer Internship | Jun-Aug 2022",
                 "roleDesc": [

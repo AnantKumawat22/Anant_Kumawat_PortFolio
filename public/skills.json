@@ -30,8 +30,8 @@
                 "skillName": "Css"
             },
             {
-                "imgSrc": "/assets/images/skills/frontend/jquery.png",
-                "skillName": "Jquery"
+                "imgSrc": "/assets/images/skills/frontend/tailwindcss.png",
+                "skillName": "Tailwind CSS"
             },
             {
                 "imgSrc": "/assets/images/skills/frontend/vscode.png",
@@ -75,7 +75,7 @@
         "others": [
             {
                 "imgSrc": "/assets/images/skills/others/c.png",
-                "skillName": "C Lang."
+                "skillName": "C"
             },
             {
                 "imgSrc": "/assets/images/skills/others/cpp.png",
@@ -111,11 +111,15 @@
             },
             {
                 "imgSrc": "/assets/images/skills/others/oops.png",
-                "skillName": "OPPs"
+                "skillName": "OOPs"
             },
             {
                 "imgSrc": "/assets/images/skills/others/os.png",
                 "skillName": "Operating Sys."
+            },
+            {
+                "imgSrc": "/assets/images/skills/others/servicenow.png",
+                "skillName": "ServiceNow"
             }
         ]
     }
