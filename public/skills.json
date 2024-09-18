@@ -18,16 +18,12 @@
                 "skillName": "Redux"
             },
             {
-                "imgSrc": "/assets/images/skills/frontend/bootstrap.png",
-                "skillName": "Bootstrap"
-            },
-            {
                 "imgSrc": "/assets/images/skills/frontend/html.png",
                 "skillName": "Html"
             },
             {
                 "imgSrc": "/assets/images/skills/frontend/css.png",
-                "skillName": "Css"
+                "skillName": "CSS"
             },
             {
                 "imgSrc": "/assets/images/skills/frontend/tailwindcss.png",
@@ -36,10 +32,6 @@
             {
                 "imgSrc": "/assets/images/skills/frontend/vscode.png",
                 "skillName": "Vs Code"
-            },
-            {
-                "imgSrc": "/assets/images/skills/frontend/vercel.svg",
-                "skillName": "Vercel"
             }
         ],
         "backend": [
@@ -66,10 +58,6 @@
             {
                 "imgSrc": "/assets/images/skills/backend/dbms.png",
                 "skillName": "DBMS"
-            },
-            {
-                "imgSrc": "/assets/images/skills/backend/mysql.png",
-                "skillName": "My SQL"
             }
         ],
         "others": [

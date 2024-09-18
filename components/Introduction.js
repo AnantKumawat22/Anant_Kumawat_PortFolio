@@ -57,16 +57,28 @@ const Introduction = () => {
 
             <p className={styles.aboutme_desc}>{jsonData.aboutMeDesc}</p>
 
-            <Link
+            <div className="intro_btn_div">
+              <Link
+                href={
+                  "https://drive.google.com/file/d/1fa5qPObuaMIi3LdodReysdhO6dVFscdr/view?usp=sharing"
+                }
+                target="_blank"
+                className="common_lnk"
+              >
+                {" "}
+                Resume
+              </Link>
+              <Link
               href={
-                "https://drive.google.com/file/d/1fa5qPObuaMIi3LdodReysdhO6dVFscdr/view?usp=sharing"
+                "https://linktr.ee/anantkumawat"
               }
               target="_blank"
-              className="common_lnk"
+              className="linktree_lnk"
             >
               {" "}
-              Resume
+              Linktree
             </Link>
+            </div>
           </div>
           <div className={styles.myImage}>
             <Image

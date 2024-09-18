@@ -68,7 +68,11 @@
                 "educationFrom": "FIITJEE, Gwalior",
                 "branch": "PCM | 2017-2019",
                 "educationDesc": [
-                    "Physics and Measurement, Laws of Motion, Work, Energy, and Power, Rotational Motion, Gravitation, Properties of Solids and Liquids, Thermodynamics, Oscillations and Waves, Current Electricity, Magnetic Effects of Current and Magnetism, Optics, Dual Nature of Matter and Radiation, etc."
+                    "Physics: Units and Dimensions, Kinematics, Laws of Motion, Work Energy and Power, Rotational Motion, Gravitation, Thermodynamics, Oscillations, Waves, Electrostatics, Current Electricity, Magnetic Effects of Current and Magnetism, Electromagnetic Induction, Alternating Current, Optics, Dual Nature of Radiation and Matter, Atoms and Nuclei",
+
+                    "Chemistry: Some Basic Concepts of Chemistry, Atomic Structure, Chemical Bonding and Molecular Structure, States of Matter, Thermodynamics, Equilibrium, Redox Reactions and Electrochemistry, Chemical Kinetics, Classification of Elements and Periodicity, Coordination Compounds, Organic Chemistry Principles, Hydrocarbons, Haloalkanes and Haloarenes, Aldehydes Ketones and Carboxylic Acids, Organic Compounds Containing Nitrogen, Biomolecules, Polymers",
+
+                    "Maths: Sets, Relations, and Functions, Complex Numbers and Quadratic Equations, Matrices and Determinants, Permutations and Combinations, Binomial Theorem, Sequences and Series, Limit Continuity and Differentiability, Integral Calculus, Differential Equations, Coordinate Geometry, Three Dimensional Geometry, Vector Algebra, Trigonometry, Probability"
                 ]
             }
         ]

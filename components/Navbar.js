@@ -4,10 +4,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBars,
   faCertificate,
-  faFile,
+  faCircleNodes,
   faFolder,
   faHome,
   faLaptop,
+  faPencilSquare,
   faXmark,
 } from "@fortawesome/free-solid-svg-icons";
 import { useEffect, useRef, useState } from "react";
@@ -85,6 +86,12 @@ const Navbar = (props) => {
               <span> Home</span>
             </Link>
           </li>
+          {/* <li>
+            <Link href="/blogs">
+              <FontAwesomeIcon icon={faPencilSquare} />
+              <span> Blogs</span>
+            </Link>
+          </li> */}
           <li>
             <Link href="/projectsection">
               <FontAwesomeIcon icon={faFolder} />
@@ -106,12 +113,12 @@ const Navbar = (props) => {
           <li>
             <Link
               href={
-                "https://drive.google.com/file/d/1fa5qPObuaMIi3LdodReysdhO6dVFscdr/view?usp=sharing"
+                "https://chat.whatsapp.com/L3zlzvxXafE3V0HBMHNsjQ"
               }
               target="_blank"
             >
-              <FontAwesomeIcon icon={faFile} />
-              <span> Resume</span>
+              <FontAwesomeIcon icon={faCircleNodes}  />
+              <span> Join Community</span>
             </Link>
           </li>
         </ul>

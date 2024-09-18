@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
 import ProCourCard from "../ProCourCard";
 
-const BasicWeb = () => {
+const Others = () => {
   const [jsonData, setJsonData] = useState(null);
 
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch("/project.json");
       const data = await response.json();
-      setJsonData(data.projects.basicWeb);
+      setJsonData(data.projects.others);
     };
 
     fetchData();
@@ -36,4 +36,4 @@ const BasicWeb = () => {
   );
 };
 
-export default BasicWeb;
+export default Others;

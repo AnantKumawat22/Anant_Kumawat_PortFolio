@@ -1,4 +1,4 @@
-import BasicWeb from "@/components/Projects/BasicWeb";
+import Others from "@/components/Projects/Others";
 import FlutterApp from "@/components/Projects/FlutterApp";
 import Website from "@/components/Projects/Website";
 import generalContext from "@/context/generalContext";
@@ -36,12 +36,12 @@ const projectSection = () => {
         <Heading heading={"Projects"} />
         <div className="secChangeDivHeading">
           <SectionButton btnValue={"Website"} mainsection={"project"} />
-          <SectionButton btnValue={"Basic Web"} mainsection={"project"} />
+          <SectionButton btnValue={"Others"} mainsection={"project"} />
           <SectionButton btnValue={"Flutter App"} mainsection={"project"} />
         </div>
         <div className={styles.containerProSecDiv}>
           {chooseProject == "website" && <Website />}
-          {chooseProject == "basicweb" && <BasicWeb />}
+          {chooseProject == "others" && <Others />}
           {chooseProject == "flutterapp" && <FlutterApp />}
         </div>
       </div>

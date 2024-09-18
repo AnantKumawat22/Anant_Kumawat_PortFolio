@@ -48,7 +48,7 @@
                 "link_1": "Code",
                 "link_2": "Link",
                 "codeLink": "https://github.com/AnantKumawat22/SaveNotes-FrontEnd",
-                "liveLink": "#"
+                "liveLink": ""
             },
             {
                 "img": "/assets/images/projects/website/textutils.png",
@@ -66,6 +66,125 @@
             {
                 "img": "/assets/images/projects/website/paymentgateway.png",
                 "ProjectName": "Payment Gateway Integration",
+                "ProjectNameDesc": "HTML, CSS, JavaScript",
+                "ProjectDesc": [
+                    "This website is to collect donation for poor children education. It contains section like about-us, home, contact-us.",
+                    "It uses the RazorPay integration for collecting donation."
+                ],
+                "link_1": "Code",
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/Payment_Gateway_Integration",
+                "liveLink": "https://anantkumawat22.github.io/Payment_Gateway_Integration/index.html"
+            },
+            {
+                "img": "/assets/images/projects/website/emojisearchapp.png",
+                "ProjectName": "Emoji Search App",
+                "ProjectNameDesc": "HTML, CSS, Javascript, React.js, Axios",
+                "ProjectDesc": [
+                    "This website uses Axios API to fetch the emojis. It uses react.js component to display emojis.",
+                    "It contains features like search the emoji on the basis of its name, copy to clipboard, robust code."
+                ],
+                "link_1": "Code",
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/Emoji-Search-App",
+                "liveLink": "https://anantkumawat22.github.io/Emoji-Search-App/"
+            },
+            {
+                "img": "/assets/images/projects/website/bmicalculator.png",
+                "ProjectName": "BMI Calculator",
+                "ProjectNameDesc": "HTML, CSS, JavaScript, React.js",
+                "ProjectDesc": [
+                    "This is a website to calculate your Body Mass Index (BMI) with the help of backend calculation using javascript.",
+                    "Frontend based on react.js. It shows the BMI table also to the user who want to check accurately."
+                ],
+                "link_1": "Code",
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/BMI_Calculator",
+                "liveLink": "https://anantkumawat22.github.io/BMI_Calculator/"
+            },
+            {
+                "img": "/assets/images/projects/website/studentattendance.png",
+                "ProjectName": "Student Attendance",
+                "ProjectNameDesc": "HTML, CSS, JavaScript, React.js",
+                "ProjectDesc": [
+                    "This is a website which keeps track of student attendance with check-in time and check-out time.",
+                    "It has robust code which handle when user doesn't provide all the information. It uses react hooks for state management."
+                ],
+                "link_1": "Code",
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/student-attendance-assignment",
+                "liveLink": "https://anantkumawat22.github.io/student-attendance-assignment/"
+            },
+            {
+                "img": "/assets/images/projects/website/jumbo.png",
+                "ProjectName": "Jumbo",
+                "ProjectNameDesc": "HTML, CSS, JavaScript, JSON",
+                "ProjectDesc": [
+                    "It is a Jumbling the word game website. Where user will be given with a jumbled word related to programming world and user need to guess the correct word.",
+                    "It uses JSON to store few words and randomly displaying to the user to guess."
+                ],
+                "link_1": "Code",
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/Jumbo",
+                "liveLink": "https://anantkumawat22.github.io/Jumbo/Index.html"
+            },
+            {
+                "img": "/assets/images/projects/website/guessthenumber.png",
+                "ProjectName": "Guess the Number",
+                "ProjectNameDesc": "HTML, CSS, JavaScript",
+                "ProjectDesc": [
+                    "It is a number guessing game Website. Where the user need to guess the number between 1-50 in some limited life lines.",
+                    "It contains page navigation, sections, robust code, etc."
+                ],
+                "link_1": "Code",
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/Guess_The_Number_Game",
+                "liveLink": "https://anantkumawat22.github.io/Guess_The_Number_Game/Index.html"
+            },
+            {
+                "img": "/assets/images/projects/website/calculatorreact.png",
+                "ProjectName": "Calculator React",
+                "ProjectNameDesc": "ReactJS, HTML, CSS, JavaScript",
+                "ProjectDesc": [
+                    "Basic React Calculator app which is used to add, subtract, multiply, divide.",
+                    "It uses HTML, CSS grid, javascript for operations and react.js for frontend view."
+                ],
+                "link_1": "Code",
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/CalculatorApp_React",
+                "liveLink": "https://anantkumawat22.github.io/CalculatorApp_React/"
+            },
+            {
+                "img": "/assets/images/projects/website/365entertainment.png",
+                "ProjectName": "365 Entertainment",
+                "ProjectNameDesc": "HTML, CSS, JavaScript",
+                "ProjectDesc": [
+                    "This Frontend Website shows the popular movies, TV Series, Drama, Actions, etc",
+                    "It has search functionality also based on the tag selected."
+                ],
+                "link_1": "Code",
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/365-Entertainments",
+                "liveLink": "https://anantkumawat22.github.io/365-Entertainments/Index.html"
+            },
+            {
+                "img": "/assets/images/projects/website/flubwastebank.png",
+                "ProjectName": "Flub Waste Bank",
+                "ProjectNameDesc": "React.js, Node.js, HTML, CSS, Express.js, MongoDB",
+                "ProjectDesc": [
+                    "Platform where people can fill out forms for garbage collecting requests or register from our website to be verified users. We will have a Tie-up with a municipal Corporation garbage collecting vehicle to allow one person from our worker's team to manage the regular attendance of verified users. After a person gives garbage, we will increase his virtual coins. When the virtual coins of a particular user reach a mark (set in our Project), then the person can redeem an Amazon voucher from those coins.",
+                    "It is a problem solving project uses technologies like HTML, CSS, React.js, Node.js, Express.js, MongoDB"
+                ],
+                "link_1": "Code",
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/FlubWasteBank",
+                "liveLink": "#"
+            }
+        ],
+        "others": [
+            {
+                "img": "/assets/images/projects/website/markall.png",
+                "ProjectName": "Markall",
                 "ProjectNameDesc": "ReactJS, NodeJS, MERN",
                 "ProjectDesc": [
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
@@ -73,8 +192,21 @@
                 ],
                 "link_1": "Code",
                 "link_2": "Link",
-                "codeLink": "https://github.com/AnantKumawat22/Payment_Gateway_Integration",
-                "liveLink": "https://anantkumawat22.github.io/Payment_Gateway_Integration/index.html"
+                "codeLink": "https://github.com/AnantKumawat22/Markall",
+                "liveLink": "https://markall.vercel.app/"
+            },
+            {
+                "img": "/assets/images/projects/others/netflixseriesreact.png",
+                "ProjectName": "Nextflix Series React",
+                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectDesc": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                ],
+                "link_1": "Code",
+                "link_2": "Link",
+                "codeLink": "https://github.com/AnantKumawat22/Netflix_Series_List_React",
+                "liveLink": "https://anantkumawat22.github.io/Netflix_Series_List_React/"
             },
             {
                 "img": "/assets/images/projects/website/vidyayan.png",
@@ -90,139 +222,7 @@
                 "liveLink": "https://anantkumawat22.github.io/Vidyayan/"
             },
             {
-                "img": "/assets/images/projects/website/emojisearchapp.png",
-                "ProjectName": "Emoji Search App",
-                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
-                "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
-                ],
-                "link_1": "Code",
-                "link_2": "Link",
-                "codeLink": "https://github.com/AnantKumawat22/Emoji-Search-App",
-                "liveLink": "https://anantkumawat22.github.io/Emoji-Search-App/"
-            },
-            {
-                "img": "/assets/images/projects/website/bmicalculator.png",
-                "ProjectName": "BMI Calculator",
-                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
-                "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
-                ],
-                "link_1": "Code",
-                "link_2": "Link",
-                "codeLink": "https://github.com/AnantKumawat22/BMI_Calculator",
-                "liveLink": "https://anantkumawat22.github.io/BMI_Calculator/"
-            },
-            {
-                "img": "/assets/images/projects/website/markall.png",
-                "ProjectName": "Markall",
-                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
-                "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
-                ],
-                "link_1": "Code",
-                "link_2": "Link",
-                "codeLink": "https://github.com/AnantKumawat22/Markall",
-                "liveLink": "https://markall.vercel.app/"
-            },
-            {
-                "img": "/assets/images/projects/website/studentattendance.png",
-                "ProjectName": "Student Attendance",
-                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
-                "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
-                ],
-                "link_1": "Code",
-                "link_2": "Link",
-                "codeLink": "https://github.com/AnantKumawat22/student-attendance-assignment",
-                "liveLink": "https://anantkumawat22.github.io/student-attendance-assignment/"
-            },
-            {
-                "img": "/assets/images/projects/website/jumbo.png",
-                "ProjectName": "Jumbo",
-                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
-                "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
-                ],
-                "link_1": "Code",
-                "link_2": "Link",
-                "codeLink": "https://github.com/AnantKumawat22/Jumbo",
-                "liveLink": "https://anantkumawat22.github.io/Jumbo/Index.html"
-            },
-            {
-                "img": "/assets/images/projects/website/guessthenumber.png",
-                "ProjectName": "Guess the Number",
-                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
-                "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
-                ],
-                "link_1": "Code",
-                "link_2": "Link",
-                "codeLink": "https://github.com/AnantKumawat22/Guess_The_Number_Game",
-                "liveLink": "https://anantkumawat22.github.io/Guess_The_Number_Game/Index.html"
-            },
-            {
-                "img": "/assets/images/projects/website/calculatorreact.png",
-                "ProjectName": "Calculator React",
-                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
-                "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
-                ],
-                "link_1": "Code",
-                "link_2": "Link",
-                "codeLink": "https://github.com/AnantKumawat22/CalculatorApp_React",
-                "liveLink": "https://anantkumawat22.github.io/CalculatorApp_React/"
-            },
-            {
-                "img": "/assets/images/projects/website/365entertainment.png",
-                "ProjectName": "365 Entertainment",
-                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
-                "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
-                ],
-                "link_1": "Code",
-                "link_2": "Link",
-                "codeLink": "https://github.com/AnantKumawat22/365-Entertainments",
-                "liveLink": "https://anantkumawat22.github.io/365-Entertainments/Index.html"
-            },
-            {
-                "img": "/assets/images/projects/website/flubwastebank.png",
-                "ProjectName": "Flub Waste Bank",
-                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
-                "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
-                ],
-                "link_1": "Code",
-                "link_2": "Link",
-                "codeLink": "https://github.com/AnantKumawat22/FlubWasteBank",
-                "liveLink": "#"
-            }
-        ],
-        "basicWeb": [
-            {
-                "img": "/assets/images/projects/basicweb/netflixseriesreact.png",
-                "ProjectName": "Nextflix Series React",
-                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
-                "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
-                ],
-                "link_1": "Code",
-                "link_2": "Link",
-                "codeLink": "https://github.com/AnantKumawat22/Netflix_Series_List_React",
-                "liveLink": "https://anantkumawat22.github.io/Netflix_Series_List_React/"
-            },
-            {
-                "img": "/assets/images/projects/basicweb/ranquotes.png",
+                "img": "/assets/images/projects/others/ranquotes.png",
                 "ProjectName": "RanQuotes",
                 "ProjectNameDesc": "ReactJS, NodeJS, MERN",
                 "ProjectDesc": [
@@ -235,7 +235,7 @@
                 "liveLink": "https://anantkumawat22.github.io/RanQuotes/Index.html"
             },
             {
-                "img": "/assets/images/projects/basicweb/todolist.png",
+                "img": "/assets/images/projects/others/todolist.png",
                 "ProjectName": "To-Do List",
                 "ProjectNameDesc": "ReactJS, NodeJS, MERN",
                 "ProjectDesc": [
@@ -248,7 +248,7 @@
                 "liveLink": "https://anantkumawat22.github.io/ToDo_List/"
             },
             {
-                "img": "/assets/images/projects/basicweb/blogging.png",
+                "img": "/assets/images/projects/others/blogging.png",
                 "ProjectName": "Blogging",
                 "ProjectNameDesc": "ReactJS, NodeJS, MERN",
                 "ProjectDesc": [
@@ -261,7 +261,7 @@
                 "liveLink": "https://anantkumawat22.github.io/Blogging/Index.html"
             },
             {
-                "img": "/assets/images/projects/basicweb/theentrepreneurshipnetwork.png",
+                "img": "/assets/images/projects/others/theentrepreneurshipnetwork.png",
                 "ProjectName": "The Entrepreneurship Network",
                 "ProjectNameDesc": "ReactJS, NodeJS, MERN",
                 "ProjectDesc": [
@@ -274,7 +274,7 @@
                 "liveLink": "https://anantkumawat22.github.io/The-Entrepreneurship-Network/"
             },
             {
-                "img": "/assets/images/projects/basicweb/tictactoegame.png",
+                "img": "/assets/images/projects/others/tictactoegame.png",
                 "ProjectName": "Tic-Tac-Toe Game",
                 "ProjectNameDesc": "ReactJS, NodeJS, MERN",
                 "ProjectDesc": [
@@ -287,20 +287,7 @@
                 "liveLink": "https://anantkumawat22.github.io/Tic_Tac_Toe_Game-/Index.html"
             },
             {
-                "img": "/assets/images/projects/basicweb/simplecalculator.png",
-                "ProjectName": "Simple Calculator",
-                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
-                "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
-                ],
-                "link_1": "Code",
-                "link_2": "Link",
-                "codeLink": "https://github.com/AnantKumawat22/Simple_Calculator-",
-                "liveLink": "https://anantkumawat22.github.io/Simple_Calculator-/Index.html"
-            },
-            {
-                "img": "/assets/images/projects/basicweb/kawaspace.png",
+                "img": "/assets/images/projects/others/kawaspace.png",
                 "ProjectName": "Kawa Space",
                 "ProjectNameDesc": "ReactJS, NodeJS, MERN",
                 "ProjectDesc": [
@@ -313,7 +300,7 @@
                 "liveLink": "https://anantkumawat22.github.io/Kawa-Space/"
             },
             {
-                "img": "/assets/images/projects/basicweb/miniprojects.png",
+                "img": "/assets/images/projects/others/miniprojects.png",
                 "ProjectName": "Mini Projects",
                 "ProjectNameDesc": "ReactJS, NodeJS, MERN",
                 "ProjectDesc": [
@@ -326,7 +313,7 @@
                 "liveLink": "https://anantkumawat22.github.io/Mini_Projects/#/"
             },
             {
-                "img": "/assets/images/projects/basicweb/photogallery.png",
+                "img": "/assets/images/projects/others/photogallery.png",
                 "ProjectName": "Photo Gallery",
                 "ProjectNameDesc": "ReactJS, NodeJS, MERN",
                 "ProjectDesc": [

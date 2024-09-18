@@ -114,19 +114,6 @@
                 "liveLink": "#"
             },
             {
-                "img": "/assets/images/coursesandcertifications/courses/HTMLCertificate.jpg",
-                "ProjectName": "HTML Certificates",
-                "ProjectNameDesc": "SoloLearn",
-                "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
-                ],
-                "link_1": "View Certificate",
-                "link_2": "Disabled",
-                "codeLink": "https://github.com/AnantKumawat22/Anant_Kumawat_PortFolio/blob/main/public/assets/images/coursesandcertifications/courses/HTMLCertificate.jpg",
-                "liveLink": "#"
-            },
-            {
                 "img": "/assets/images/coursesandcertifications/courses/HTMLWorkshopCertificate.jpg",
                 "ProjectName": "HTML Workshop Certificate",
                 "ProjectNameDesc": "GeeksForGeeks",
@@ -176,32 +163,6 @@
                 "link_1": "View Certificate",
                 "link_2": "Disabled",
                 "codeLink": "https://github.com/AnantKumawat22/Anant_Kumawat_PortFolio/blob/main/public/assets/images/coursesandcertifications/courses/LearnVernCSS.jpg",
-                "liveLink": "#"
-            },
-            {
-                "img": "/assets/images/coursesandcertifications/courses/LearnVernHTML.jpg",
-                "ProjectName": "HTML",
-                "ProjectNameDesc": "LearnVern",
-                "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
-                ],
-                "link_1": "View Certificate",
-                "link_2": "Disabled",
-                "codeLink": "https://github.com/AnantKumawat22/Anant_Kumawat_PortFolio/blob/main/public/assets/images/coursesandcertifications/courses/LearnVernHTML.jpg",
-                "liveLink": "#"
-            },
-            {
-                "img": "/assets/images/coursesandcertifications/courses/ProgateJavaCourse.jpg",
-                "ProjectName": "Java Course",
-                "ProjectNameDesc": "Progate",
-                "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
-                ],
-                "link_1": "View Certificate",
-                "link_2": "Disabled",
-                "codeLink": "https://github.com/AnantKumawat22/Anant_Kumawat_PortFolio/blob/main/public/assets/images/coursesandcertifications/courses/ProgateJavaCourse.jpg",
                 "liveLink": "#"
             }
         ],
