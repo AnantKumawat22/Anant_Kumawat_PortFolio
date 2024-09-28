@@ -1,7 +1,6 @@
 .introMain {
     width: 100%;
     background: url('../public/assets/images/introbg.webp') no-repeat center top;
-    min-height: 90vh;
     display: flex;
     flex-direction: row;
     padding-bottom: 30px;
