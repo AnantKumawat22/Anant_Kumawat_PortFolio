@@ -40,24 +40,34 @@ const ProCourCard = (props) => {
 
           <div className={styles.proCourDescDiv} onClick={toggleDescription}>
             {!showFullDescription && (
-              <p style={{cursor: 'pointer'}} className={styles.proCourDesc}>
-                <FontAwesomeIcon icon={faCircle} style={{ fontSize: "8px", marginRight: '3px' }} />{" "}
+              <p style={{ cursor: "pointer" }} className={styles.proCourDesc}>
+                <FontAwesomeIcon
+                  icon={faCircle}
+                  style={{ fontSize: "8px", marginRight: "3px" }}
+                />{" "}
                 {wrappedSentence}
               </p>
             )}
 
             {!showFullDescription && (
-              <span onClick={toggleDescription} style={{ color: "#7C3AED", cursor: 'pointer' }}>
+              <span
+                onClick={toggleDescription}
+                style={{ color: "#7C3AED", cursor: "pointer" }}
+              >
                 ...See more
               </span>
             )}
             {showFullDescription &&
               props.proCourDesc.map((data, index) => {
                 return (
-                  <p style={{cursor: 'pointer'}} key={index} className={styles.proCourDesc}>
+                  <p
+                    style={{ cursor: "pointer" }}
+                    key={index}
+                    className={styles.proCourDesc}
+                  >
                     <FontAwesomeIcon
                       icon={faCircle}
-                      style={{ fontSize: "8px", marginRight: '3px' }}
+                      style={{ fontSize: "8px", marginRight: "3px" }}
                     />{" "}
                     {data}
                   </p>
@@ -65,21 +75,34 @@ const ProCourCard = (props) => {
               })}
 
             {showFullDescription && (
-              <span onClick={toggleDescription} style={{ color: "#7C3AED", cursor: 'pointer' }}>
+              <span
+                onClick={toggleDescription}
+                style={{ color: "#7C3AED", cursor: "pointer" }}
+              >
                 ...See less
               </span>
             )}
           </div>
 
           <div className={styles.ProCourBtn}>
-            <Link href={props.link_1Href} target="_blank" className="common_lnk" style={{ marginRight: "10px" }}>
+            <Link
+              href={props.link_1Href}
+              target="_blank"
+              className="common_lnk"
+              style={{ marginRight: "10px" }}
+            >
               <span>{`${props.link_1}`}</span>
               <FontAwesomeIcon
                 icon={faLink}
                 style={{ marginLeft: "5px", fontSize: "15px" }}
               />{" "}
             </Link>
-            <Link href={`${props.link_2Href}`} style={{display: props.link_2 == "Disabled" ? 'none' : ''}} target="_blank" className="common_lnk">
+            <Link
+              href={`${props.link_2Href}`}
+              style={{ display: props.link_2 == "Disabled" ? "none" : "" }}
+              target="_blank"
+              className="common_lnk"
+            >
               <span>{props.link_2}</span>
               <FontAwesomeIcon
                 icon={faSquareArrowUpRight}

@@ -108,6 +108,10 @@
             {
                 "imgSrc": "/assets/images/skills/others/servicenow.png",
                 "skillName": "ServiceNow"
+            },
+            {
+                "imgSrc": "/assets/images/skills/others/system_design.png",
+                "skillName": "System Design"
             }
         ]
     }

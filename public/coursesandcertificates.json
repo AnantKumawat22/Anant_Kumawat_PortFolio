@@ -27,34 +27,17 @@
         {
             "imgSlider": "/assets/images/coursesandcertifications/imageslider/UnstopAgoda.gif",
             "imgSliderLink": "https://github.com/AnantKumawat22/Anant_Kumawat_PortFolio/blob/main/public/assets/images/coursesandcertifications/certificates/ParticipationCertificateCodegoda2022ProgrammingCompetitionByAgoda.jpg"
-        },
-        {
-            "imgSlider": "/assets/images/coursesandcertifications/imageslider/LetsUpgradeDSA.gif",
-            "imgSliderLink": "https://github.com/AnantKumawat22/Anant_Kumawat_PortFolio/blob/main/public/assets/images/coursesandcertifications/courses/EssentialPrograminMasterDataStructuresandAlgorithms.jpg"
         }
     ],
     "coursesAndCertificates": {
         "courses": [
             {
-                "img": "/assets/images/coursesandcertifications/courses/EssentialPrograminMasterDataStructuresandAlgorithms.jpg",
-                "ProjectName": "Essential Program in Master Data Structures and Algorithms",
-                "ProjectNameDesc": "Lets Upgrade",
-                "ProjectDesc": [
-                    "Learn about Data Structures and Algorithms concept in C++.",
-                    "Concept like Arrays, String, Linked List, Tree, Graph, Hashmap, etc."
-                ],
-                "link_1": "View Certificate",
-                "link_2": "Disabled",
-                "codeLink": "https://github.com/AnantKumawat22/Anant_Kumawat_PortFolio/blob/main/public/assets/images/coursesandcertifications/courses/EssentialPrograminMasterDataStructuresandAlgorithms.jpg",
-                "liveLink": "#"
-            },
-            {
                 "img": "/assets/images/coursesandcertifications/courses/7DaysHandsonWorkshopLetsUtterwithFlutter.jpg",
-                "ProjectName": "7 Days Hands on Workshop Lets Utter with Flutter",
+                "ProjectName": "Workshop on Flutter",
                 "ProjectNameDesc": "GDG",
                 "ProjectDesc": [
-                    "It is a 7 days hands-on workshop on flutter which is organised by GDG.",
-                    "It includes the basic concept of flutter."
+                    "This immersive workshop provided practical experience in building cross-platform mobile apps using Flutter.",
+                    "Covered essential concepts like widgets, state management, and UI design to enhance development skills in a real-world setting."
                 ],
                 "link_1": "View Certificate",
                 "link_2": "Disabled",
@@ -62,38 +45,12 @@
                 "liveLink": "#"
             },
             {
-                "img": "/assets/images/coursesandcertifications/courses/EssentialPrograminAWSCloudComputingZerotoHero.jpg",
-                "ProjectName": "Essential Program in AWS Cloud Computing Zero to Hero",
-                "ProjectNameDesc": "Lets Upgrade",
-                "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
-                ],
-                "link_1": "View Certificate",
-                "link_2": "Disabled",
-                "codeLink": "https://github.com/AnantKumawat22/Anant_Kumawat_PortFolio/blob/main/public/assets/images/coursesandcertifications/courses/EssentialPrograminAWSCloudComputingZerotoHero.jpg",
-                "liveLink": "#"
-            },
-            {
-                "img": "/assets/images/coursesandcertifications/courses/EssentialPrograminFlutterZerotoHero.jpg",
-                "ProjectName": "Essential Program in Flutter Zero to Hero",
-                "ProjectNameDesc": "Lets Upgrade",
-                "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
-                ],
-                "link_1": "View Certificate",
-                "link_2": "Disabled",
-                "codeLink": "https://github.com/AnantKumawat22/Anant_Kumawat_PortFolio/blob/main/public/assets/images/coursesandcertifications/courses/EssentialPrograminFlutterZerotoHero.jpg",
-                "liveLink": "#"
-            },
-            {
                 "img": "/assets/images/coursesandcertifications/courses/GettingStartedwithPythonCertificate.jpg",
-                "ProjectName": "Getting Started with Python Certificate",
+                "ProjectName": "Getting Started with Python",
                 "ProjectNameDesc": "GeeksForGeeks",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "Dive into Python, exploring fundamental programming concepts like data types, loops, and functions, essential for building a strong coding foundation.",
+                    "Apply what you learn through hands-on exercises, ensuring a deep understanding of Python's core principles for real-world applications."
                 ],
                 "link_1": "View Certificate",
                 "link_2": "Disabled",
@@ -102,11 +59,11 @@
             },
             {
                 "img": "/assets/images/coursesandcertifications/courses/SQLProjectsforBeginnersCertificate.jpg",
-                "ProjectName": "SQL Projects for Beginners Certificate",
+                "ProjectName": "SQL Projects for Beginners",
                 "ProjectNameDesc": "Great Learning",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "Learn the basics of SQL by working on beginner-friendly projects that help you grasp fundamental database concepts like queries, joins, and data manipulation.",
+                    "Strengthen your understanding of relational databases through hands-on projects, giving you practical experience with real-world data."
                 ],
                 "link_1": "View Certificate",
                 "link_2": "Disabled",
@@ -115,11 +72,11 @@
             },
             {
                 "img": "/assets/images/coursesandcertifications/courses/HTMLWorkshopCertificate.jpg",
-                "ProjectName": "HTML Workshop Certificate",
+                "ProjectName": "HTML Workshop",
                 "ProjectNameDesc": "GeeksForGeeks",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "Gain a strong foundation in HTML, learning how to structure web pages using essential elements like headings, lists, and links.",
+                    "Develop practical skills through hands-on exercises, enabling you to create well-structured, responsive web pages from scratch."
                 ],
                 "link_1": "View Certificate",
                 "link_2": "Disabled",
@@ -131,8 +88,8 @@
                 "ProjectName": "Introduction to Linux",
                 "ProjectNameDesc": "Great Learning",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "Explore the basics of Linux, understanding its command-line interface, file system, and key operations for effective system navigation.",
+                    "Build hands-on experience with essential Linux commands, empowering you to manage files, processes, and permissions efficiently."
                 ],
                 "link_1": "View Certificate",
                 "link_2": "Disabled",
@@ -141,11 +98,11 @@
             },
             {
                 "img": "/assets/images/coursesandcertifications/courses/IntroductiontoPythonCertificate.jpg",
-                "ProjectName": "Introduction to Python Certificate",
+                "ProjectName": "Introduction to Python",
                 "ProjectNameDesc": "Coursera",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "Discover the fundamentals of Python, covering key concepts like variables, loops, and functions to build a solid programming foundation.",
+                    "Gain practical experience with coding exercises that help you apply Python in solving real-world problems efficiently."
                 ],
                 "link_1": "View Certificate",
                 "link_2": "Disabled",
@@ -157,8 +114,8 @@
                 "ProjectName": "CSS",
                 "ProjectNameDesc": "LearnVern",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "Master the core concepts of CSS, learning how to style web pages with properties like colors, layouts, and fonts for visually appealing designs.",
+                    "Apply your knowledge through hands-on projects, creating responsive and dynamic web pages with modern CSS techniques."
                 ],
                 "link_1": "View Certificate",
                 "link_2": "Disabled",
@@ -168,12 +125,38 @@
         ],
         "certificates": [
             {
-                "img": "/assets/images/coursesandcertifications/certificates/ServiceNowCSA.png",
-                "ProjectName": "ServiceNow - Certified System Administrator",
+                "img": "/assets/images/coursesandcertifications/certificates/servicenowCad.png",
+                "ProjectName": "Certified Application Developer",
                 "ProjectNameDesc": "ServiceNow",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "Obtain the ServiceNow Certified Application Developer certification, validating your skills in designing, developing, and implementing applications on the ServiceNow platform.",
+                    "Showcase your ability to leverage ServiceNow’s features and capabilities to create custom applications that meet specific business requirements, enhancing overall workflow and productivity."
+                ],
+                "link_1": "View Certificate",
+                "link_2": "Disabled",
+                "codeLink": "",
+                "liveLink": "#"
+            },
+            {
+                "img": "/assets/images/coursesandcertifications/certificates/servicenowCisDiscovery.png",
+                "ProjectName": "Certified Implementation Specialist - Discovery",
+                "ProjectNameDesc": "ServiceNow",
+                "ProjectDesc": [
+                    "Achieve the ServiceNow Certified Implementation Specialist - Discovery certification, showcasing your ability to implement and configure the Discovery application within the ServiceNow platform.",
+                    "Demonstrate your expertise in automating the discovery of IT infrastructure and services, enhancing your skills in configuration management and service mapping for improved operational efficiency."
+                ],
+                "link_1": "View Certificate",
+                "link_2": "Disabled",
+                "codeLink": "",
+                "liveLink": "#"
+            },
+            {
+                "img": "/assets/images/coursesandcertifications/certificates/ServiceNowCSA.png",
+                "ProjectName": "Certified System Administrator",
+                "ProjectNameDesc": "ServiceNow",
+                "ProjectDesc": [
+                    "Obtain the ServiceNow Certified System Administrator certification, validating your expertise in configuring, managing, and optimizing the ServiceNow platform for organizational needs.",
+                    "Demonstrate your ability to implement best practices in service management, enhancing your skills in automating processes and improving service delivery within businesses."
                 ],
                 "link_1": "View Certificate",
                 "link_2": "Disabled",
@@ -185,8 +168,8 @@
                 "ProjectName": "Career-Edge Knock Down The Lockdown",
                 "ProjectNameDesc": "TCS-ION",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "Enhance your professional skills through 'Career-Edge Knock Down The Lockdown' by TCS, covering essential topics such as email writing, communication skills, and workplace etiquette.",
+                    "Develop soft skills and leadership abilities, preparing you for success in various career paths and fostering a strong professional presence in any environment."
                 ],
                 "link_1": "View Certificate",
                 "link_2": "Disabled",
@@ -195,11 +178,11 @@
             },
             {
                 "img": "/assets/images/coursesandcertifications/certificates/AwsCertifiedCloudPractitioner.jpg",
-                "ProjectName": "Aws Certified Cloud Practitioner",
+                "ProjectName": "Certified Cloud Practitioner",
                 "ProjectNameDesc": "AWS",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "Achieve the AWS Certified Cloud Practitioner certification, validating your foundational knowledge of AWS cloud services and their benefits for businesses.",
+                    "Demonstrate your understanding of key cloud concepts, pricing models, and security measures, empowering you to contribute effectively in cloud-related discussions and projects."
                 ],
                 "link_1": "View Certificate",
                 "link_2": "Disabled",
@@ -208,11 +191,11 @@
             },
             {
                 "img": "/assets/images/coursesandcertifications/certificates/AwsCloudArchitecting.jpg",
-                "ProjectName": "Aws Cloud Architecting",
+                "ProjectName": "Cloud Architecting",
                 "ProjectNameDesc": "AWS",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "Delve into the principles of cloud architecture with AWS Cloud Architecting, focusing on best practices for designing scalable, reliable, and cost-effective cloud solutions.",
+                    "Enhance your skills in building and deploying robust applications on AWS, preparing you for real-world challenges in cloud infrastructure design and management."
                 ],
                 "link_1": "View Certificate",
                 "link_2": "Disabled",
@@ -221,11 +204,11 @@
             },
             {
                 "img": "/assets/images/coursesandcertifications/certificates/AwsCloudFoundations.jpg",
-                "ProjectName": "Aws Cloud Foundations",
+                "ProjectName": "Cloud Foundations",
                 "ProjectNameDesc": "AWS",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "Gain a solid understanding of cloud computing concepts through AWS Cloud Foundations, covering essential topics like cloud architecture, security, and deployment models.",
+                    "Develop practical skills in using AWS services, empowering you to leverage cloud technology effectively for various applications and projects."
                 ],
                 "link_1": "View Certificate",
                 "link_2": "Disabled",
@@ -237,8 +220,8 @@
                 "ProjectName": "BEC Certificate",
                 "ProjectNameDesc": "Cambridge Assessment English-BEC",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "Attain the Business English Certificate Preliminary, showcasing your ability to communicate effectively in a professional environment with foundational business English skills.",
+                    "Validate your understanding of key business concepts and terminology, enhancing your confidence in both written and spoken communication in the workplace."
                 ],
                 "link_1": "View Certificate",
                 "link_2": "Disabled",
@@ -250,8 +233,8 @@
                 "ProjectName": "Codekaze",
                 "ProjectNameDesc": "Coding Ninjas",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "Celebrate your participation in Codekaze by Coding Ninjas, where you showcased your programming skills in a competitive environment.",
+                    "Achieve an impressive 8408th rank while scoring a perfect 36/36, demonstrating your proficiency in tackling diverse coding challenges."
                 ],
                 "link_1": "View Certificate",
                 "link_2": "Disabled",
@@ -259,25 +242,12 @@
                 "liveLink": "#"
             },
             {
-                "img": "/assets/images/coursesandcertifications/certificates/DevtownCertificateServerAuthUsingExpress&NodeJS.jpg",
-                "ProjectName": "Devtown Certificate Server Auth Using Express & NodeJS",
-                "ProjectNameDesc": "Devtown",
-                "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
-                ],
-                "link_1": "View Certificate",
-                "link_2": "Disabled",
-                "codeLink": "https://github.com/AnantKumawat22/Anant_Kumawat_PortFolio/blob/main/public/assets/images/coursesandcertifications/certificates/DevtownCertificateServerAuthUsingExpress%26NodeJS.jpg",
-                "liveLink": "#"
-            },
-            {
                 "img": "/assets/images/coursesandcertifications/certificates/GDGDevFestIndia2021Certificate.jpg",
-                "ProjectName": "GDG DevFest India 2021 Certificate",
+                "ProjectName": "GDG DevFest India 2021",
                 "ProjectNameDesc": "GDG",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "Participate in GDG DevFest India 2021, a vibrant tech conference that brought together developers to learn about the latest advancements in Google technologies and programming practices.",
+                    "Gain valuable insights from industry experts through workshops and talks, while networking with like-minded individuals and expanding your professional connections in the tech community."
                 ],
                 "link_1": "View Certificate",
                 "link_2": "Disabled",
@@ -286,11 +256,11 @@
             },
             {
                 "img": "/assets/images/coursesandcertifications/certificates/GDG-GwaliorParticipatingInTechnicalQuizandtheEvent.jpg",
-                "ProjectName": "GDG-Gwalior Participating In Technical Quiz and the Event",
+                "ProjectName": "GDG-Gwalior Technical Quiz and the Event",
                 "ProjectNameDesc": "GDG",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "Showcase your participation in the GDG-Gwalior Technical Quiz, where you tested your knowledge and skills in various tech domains against fellow enthusiasts.",
+                    "Engage in a stimulating environment that fostered learning and networking, enhancing your understanding of current trends and technologies in the field."
                 ],
                 "link_1": "View Certificate",
                 "link_2": "Disabled",
@@ -299,11 +269,11 @@
             },
             {
                 "img": "/assets/images/coursesandcertifications/certificates/GDSC-SolutionChallengeParticipationCertificate2022.jpg",
-                "ProjectName": "GDSC-Solution Challenge Participation Certificate 2022",
+                "ProjectName": "GDSC-Solution Challenge 2022",
                 "ProjectNameDesc": "GDSC",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "Highlight your involvement in the GDSC Solution Challenge 2022, where you collaborated with peers to develop innovative solutions to real-world problems using Google technologies.",
+                    "Gain recognition for your contributions and teamwork, demonstrating your commitment to leveraging technology for positive impact in the community."
                 ],
                 "link_1": "View Certificate",
                 "link_2": "Disabled",
@@ -315,8 +285,8 @@
                 "ProjectName": "Google Kick Start 2021",
                 "ProjectNameDesc": "Google",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "Celebrate your achievement in Google Kick Start 2021, where you competed in a global coding competition that challenged your algorithmic and problem-solving skills.",
+                    "Secure a notable 7234th rank, showcasing your dedication and capability in tackling complex programming challenges amidst a diverse pool of participants."
                 ],
                 "link_1": "View Certificate",
                 "link_2": "Disabled",
@@ -328,8 +298,8 @@
                 "ProjectName": "Introduction to Programming using Python",
                 "ProjectNameDesc": "Microsoft",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "Explore the fundamentals of programming through Python, focusing on essential concepts like variables, loops, and functions to develop a solid coding foundation.",
+                    "Engage in practical coding exercises that reinforce your understanding and enable you to create simple applications, preparing you for more advanced programming challenges."
                 ],
                 "link_1": "View Certificate",
                 "link_2": "Disabled",
@@ -338,11 +308,11 @@
             },
             {
                 "img": "/assets/images/coursesandcertifications/certificates/ParticipationCertificateCodegoda2022ProgrammingCompetitionByAgoda.jpg",
-                "ProjectName": "Participation Certificate Codegoda 2022 Programming Competition",
+                "ProjectName": "Codegoda 2022 Programming Competition",
                 "ProjectNameDesc": "Agoda",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "Showcase your participation in Codegoda 2022, a prestigious programming competition that tested your coding skills and creativity against a global pool of talent.",
+                    "Gain recognition for your efforts in tackling challenging programming problems, enhancing your competitive programming experience and knowledge."
                 ],
                 "link_1": "View Certificate",
                 "link_2": "Disabled",
@@ -354,8 +324,8 @@
                 "ProjectName": "Problem Solving (Basic)",
                 "ProjectNameDesc": "HackerRank",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "Strengthen your foundational problem-solving skills in data structures and algorithms through a variety of basic challenges designed to enhance logical thinking.",
+                    "Engage with hands-on coding exercises that foster critical analysis and efficient solution strategies, preparing you for more complex DSA concepts."
                 ],
                 "link_1": "View Certificate",
                 "link_2": "Disabled",
@@ -367,8 +337,8 @@
                 "ProjectName": "Hackathon",
                 "ProjectNameDesc": "HackCBS 3.0",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "Collaborate in a dynamic environment to develop a website that visually demonstrates the conversion between number systems, such as binary to decimal.",
+                    "Enhance your coding and design skills by creating an interactive experience, making complex concepts accessible and engaging for users."
                 ],
                 "link_1": "View Certificate",
                 "link_2": "Disabled",
@@ -377,11 +347,11 @@
             },
             {
                 "img": "/assets/images/coursesandcertifications/certificates/TruegeekTournament2021Certificate.png",
-                "ProjectName": "True geek Tournament 2021 Certificate",
+                "ProjectName": "True geek Tournament 2021",
                 "ProjectNameDesc": "GeeksForGeeks",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "Participate in an engaging coding competition that challenges your data structures and algorithms skills, fostering problem-solving abilities under time constraints.",
+                    "Compete with peers, gaining valuable experience and insights into competitive programming while enhancing your coding proficiency."
                 ],
                 "link_1": "View Certificate",
                 "link_2": "Disabled",

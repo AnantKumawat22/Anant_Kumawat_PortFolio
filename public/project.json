@@ -38,17 +38,17 @@
                 "liveLink": "https://linnker.vercel.app/"
             },
             {
-                "img": "/assets/images/projects/website/textutils.png",
-                "ProjectName": "InfyNotes",
+                "img": "/assets/images/projects/website/savenotes.png",
+                "ProjectName": "Save Notes",
                 "ProjectNameDesc": "ReactJS, NodeJS, Express.js, MongoDB",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "This is a MERN website which stores notes of users. User can sign-up to create account and login to access thier notes.",
+                    "It has the functionality to create, update and delete the notes according to user. Responsive UI design."
                 ],
                 "link_1": "Code",
                 "link_2": "Link",
-                "codeLink": "https://github.com/AnantKumawat22/SaveNotes-FrontEnd",
-                "liveLink": ""
+                "codeLink": "https://github.com/AnantKumawat22/SaveNotes-Backend",
+                "liveLink": "https://savenotes-backend.onrender.com/"
             },
             {
                 "img": "/assets/images/projects/website/textutils.png",
@@ -178,17 +178,17 @@
                 "link_1": "Code",
                 "link_2": "Link",
                 "codeLink": "https://github.com/AnantKumawat22/FlubWasteBank",
-                "liveLink": "#"
+                "liveLink": "https://youtu.be/LAaJEVU84-I?si=Wx33I_-YNqogKd5N"
             }
         ],
         "others": [
             {
                 "img": "/assets/images/projects/website/markall.png",
                 "ProjectName": "Markall",
-                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectNameDesc": "HTML, CSS, JavaScript, JSX, React.js",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "Created Simple frontend website in React.js as an assessment.",
+                    "Used react components for code reusability, working Contact-us using nodemailer integration."
                 ],
                 "link_1": "Code",
                 "link_2": "Link",
@@ -198,10 +198,10 @@
             {
                 "img": "/assets/images/projects/others/netflixseriesreact.png",
                 "ProjectName": "Nextflix Series React",
-                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectNameDesc": "HTML, CSS, JavaScript, React.js",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "A frontend Website which shows some popular series of Netflix.",
+                    "It is made in react.js and uses react components, jsx, etc."
                 ],
                 "link_1": "Code",
                 "link_2": "Link",
@@ -211,10 +211,10 @@
             {
                 "img": "/assets/images/projects/website/vidyayan.png",
                 "ProjectName": "Vidyayan",
-                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectNameDesc": "HTML, CSS, JavaScript, React.js",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "Created Simple frontend website in React.js as an assessment.",
+                    "It is made in react.js and uses react components, jsx, etc."
                 ],
                 "link_1": "Code",
                 "link_2": "Link",
@@ -224,10 +224,10 @@
             {
                 "img": "/assets/images/projects/others/ranquotes.png",
                 "ProjectName": "RanQuotes",
-                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectNameDesc": "HTML, CSS, JavaScript, API",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "Website used to show quotes and their author name.",
+                    "Using fetch API to get the quotes and showing them randomly with Robust code which handle when their is no author and quotes."
                 ],
                 "link_1": "Code",
                 "link_2": "Link",
@@ -237,10 +237,10 @@
             {
                 "img": "/assets/images/projects/others/todolist.png",
                 "ProjectName": "To-Do List",
-                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectNameDesc": "HTML, CSS, JavaScript, JSX, React.js",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "Website used to store the to-do list and give functionality to delete the to-dos.",
+                    "Used react hooks, components, state management, etc."
                 ],
                 "link_1": "Code",
                 "link_2": "Link",
@@ -250,10 +250,10 @@
             {
                 "img": "/assets/images/projects/others/blogging.png",
                 "ProjectName": "Blogging",
-                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectNameDesc": "HTML, CSS, JavaScript",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "A blogging frontend website which contains home page, blog page and responsive ui design.",
+                    "Contains a dummy login sign-up page and impressive good looking UI."
                 ],
                 "link_1": "Code",
                 "link_2": "Link",
@@ -263,10 +263,10 @@
             {
                 "img": "/assets/images/projects/others/theentrepreneurshipnetwork.png",
                 "ProjectName": "The Entrepreneurship Network",
-                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectNameDesc": "HTML, CSS, JavaScript, React.js",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "A frontend website build on react.js containing whole home page, including wallpaper carousel, sliding background image with scroll, etc.",
+                    "Used react components for code reusability, responsive design."
                 ],
                 "link_1": "Code",
                 "link_2": "Link",
@@ -276,10 +276,10 @@
             {
                 "img": "/assets/images/projects/others/tictactoegame.png",
                 "ProjectName": "Tic-Tac-Toe Game",
-                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectNameDesc": "HTML, CSS, JavaScript",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "This website is a tic-tac-toe game. It has a loader which is animate when the user opens this website.",
+                    "It contains the logic of the game and announces the winner at the end. Contains all the navigation menus. The UI is responsive but not so good because this project was created in my initial days of the coding journey."
                 ],
                 "link_1": "Code",
                 "link_2": "Link",
@@ -289,10 +289,10 @@
             {
                 "img": "/assets/images/projects/others/kawaspace.png",
                 "ProjectName": "Kawa Space",
-                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectNameDesc": "HTML, CSS, JavaScript, React.js",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "This website is using the axis API to fetch some users data. Click on card to display user data on main card.",
+                    "React.js is used in this project to display users on cards and using its components feature for code reusability."
                 ],
                 "link_1": "Code",
                 "link_2": "Link",
@@ -302,23 +302,23 @@
             {
                 "img": "/assets/images/projects/others/miniprojects.png",
                 "ProjectName": "Mini Projects",
-                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectNameDesc": "HTML, CSS, JavaScript, React.js",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "This website is a collection of many small size projects. It helps me to build the basic concept of react.js.",
+                    "It includes, background color change by one button only, dynamic greeting web page, current running date and time, digital clock, increment and decrement using react.js hooks."
                 ],
                 "link_1": "Code",
                 "link_2": "Link",
                 "codeLink": "https://github.com/AnantKumawat22/Mini_Projects",
-                "liveLink": "https://anantkumawat22.github.io/Mini_Projects/#/"
+                "liveLink": "https://anantkumawat22.github.io/Mini_Projects/"
             },
             {
                 "img": "/assets/images/projects/others/photogallery.png",
                 "ProjectName": "Photo Gallery",
-                "ProjectNameDesc": "ReactJS, NodeJS, MERN",
+                "ProjectNameDesc": "HTML, CSS, JavaScript, React.js",
                 "ProjectDesc": [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit."
+                    "This website uses Axios API to fetch the images. It uses the react.js component to display images.",
+                    "It contains features like searching the image on the basis of its name, copy to clipboard, robust code, responsive UI etc."
                 ],
                 "link_1": "Code",
                 "link_2": "Link",

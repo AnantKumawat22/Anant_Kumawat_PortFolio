@@ -21,6 +21,7 @@
 @media(max-width: 500px) {
     .containerProSecDiv{
         margin: 0px;
+        min-height: 30Svh;
         margin-top: 50px;
     }
 }
